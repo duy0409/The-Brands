@@ -2,6 +2,7 @@
 import React from 'react';
 
 //npm install react-slick slick-carousel
+//[Consult https://github.com/akiran/react-slick]
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

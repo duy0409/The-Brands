@@ -8,19 +8,13 @@
     grid-template-rows: 50px;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
     z-index: 100;
     background-color: #181A1B;
 }
 
-.search {
-    color: aliceblue;
-    margin-top: 65px;
-    margin-left: -50px;
-}
-
 .logo {
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 50px;
 }
 
@@ -33,10 +27,8 @@
 }
 
 .header .menu {
-    margin-left: 300px;
+    margin-left: 270px;
     font-size: 20px;
-
-
 }
 
 .menu li {
@@ -53,7 +45,7 @@
     color: #8f816a;
     font-size: 20px;
     background-color: #181A1B;
-
+    height: 50px;
 }
 
 #item {
@@ -85,5 +77,4 @@
 
 .dropdown a:hover {
     background-color: #523131;
-
 }
