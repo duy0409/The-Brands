@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 .header {
     width: 100%;
     height: 100px;
@@ -13,8 +15,26 @@
     background-color: #181A1B;
 }
 
+.login {
+    bottom: -8px;
+    right: -180px;
+}
+
+.login:hover {
+    background-color: #ffffff;
+}
+
+.like {
+    bottom: -8px;
+    right: -190px;
+}
+
+.like:hover {
+    background-color: #ffffff;
+}
+
 .logo {
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 50px;
 }
 
@@ -27,7 +47,7 @@
 }
 
 .header .menu {
-    margin-left: 270px;
+    margin-left: 220px;
     font-size: 20px;
 }
 
@@ -40,16 +60,19 @@
 
 .menu li a {
     display: block;
-    padding: 15px 20px;
+    padding: 20px 20px;
+    margin-right: 10px;
     text-decoration: none;
     color: #8f816a;
-    font-size: 20px;
+    font-size: 15px;
     background-color: #181A1B;
-    height: 50px;
+    height: auto;
 }
 
-#item {
-    height: 50px;
+.menu li .item {
+    background-color: #181A1B;
+    height: 42px;
+    font-size: 15px;
 }
 
 .dropdown {
@@ -58,10 +81,14 @@
     top: 100%;
     left: 0;
     background-color: #181A1B;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: -1;
-    width: 200px;
-    height: 1px;
+    width: 150px;
+    font-size: 15px;
+}
+
+#adLv {
+    height: auto;
+    color: #ffffff;
+    font-family: Poppins;
 }
 
 .menu li:hover .dropdown {
@@ -71,8 +98,10 @@
 .dropdown a {
     display: block;
     padding: 0;
-    color: #181A1B;
+    color: #ffffff;
+    height: 15px;
     text-decoration: none;
+    width: 150px;
 }
 
 .dropdown a:hover {

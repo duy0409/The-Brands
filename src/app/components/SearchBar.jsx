@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import styles from '../css/search.module.css';
+import Search from '../css/search.module.css';
+import Image from 'next/image';
 
 const SearchBar = () => {
     const [searchText, setSearchText] = useState('');
@@ -16,15 +17,16 @@ const SearchBar = () => {
     };
 
     return (
-        <form className={styles.searchBar} onSubmit={handleSearch}>
+        <form className={Search.searchBar} onSubmit={handleSearch}>
             <input
                 type="text"
                 placeholder="Search......"
                 value={searchText}
                 onChange={handleChange}
-                className={styles.input}
+                className={Search.input}
+
             />
-            <button type="submit" className={styles.button}>Search</button>
+            <button type="submit" className={Search.button}><Image src="/search.png" width={10} height={10} alt='search' /></button>
         </form>
     );
 };
