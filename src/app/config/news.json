@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "new1",
+        "description": "new1",
+        "thumbnail": "/FashionNews/new1.svg",
+        "New1": "Hình ảnh chính thức của Two Stüssy x ",
+        "New2": "Nike Air Flight 89 Colorways",
+        "link": "https://localbrand.vn/hinh-anh-chinh-thuc-cua-two-stussy-x-nike-air-flight-89-colorways/"
+    },
+    {
+        "id": 2,
+        "name": "new2",
+        "description": "new2",
+        "thumbnail": "/FashionNews/new2.svg",
+        "New1": "Áo sweater local brand được ",
+        "New2": "các bạn trẻ ưa chuộng",
+        "link": "https://localbrand.vn/ao-sweater-local-brand-duoc-cac-ban-tre-ua-chuong/"
+    },
+    {
+        "id": 3,
+        "name": "new3",
+        "description": "new3",
+        "thumbnail": "/FashionNews/new3.svg",
+        "New1": "Các local brand qua tips phối đồ ",
+        "New2": "siêu xịn cùng Tiktoker nổi tiếng",
+        "link": "https://localbrand.vn/tips-phoi-do-cung-ao-baby-tee-ma-ban-khong-nen-bo-qua/"
+    }
+]

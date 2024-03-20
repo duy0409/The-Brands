@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "ADLV",
+        "description": "adLv",
+        "thumbnail": "/brandLogo/adLv.png"
+    },
+    {
+        "id": 2,
+        "name": "ATYS",
+        "description": "at",
+        "thumbnail": "/brandLogo/at.png"
+    },
+    {
+        "id": 3,
+        "name": "BALENCIAGA",
+        "description": "baLen",
+        "thumbnail": "/brandLogo/baLen.png"
+    },
+    {
+        "id": 4,
+        "name": "DAVIES",
+        "description": "davies",
+        "thumbnail": "/brandLogo/davies.png"
+    },
+    {
+        "id": 5,
+        "name": "DEGREY",
+        "description": "deGrey",
+        "thumbnail": "/brandLogo/deGrey.png"
+    },
+    {
+        "id": 6,
+        "name": "ESSENTIALS",
+        "description": "eSen",
+        "thumbnail": "/brandLogo/eSen.png"
+    },
+    {
+        "id": 7,
+        "name": "FEAR OF GOD",
+        "description": "fog",
+        "thumbnail": "/brandLogo/fog.png"
+    },
+    {
+        "id": 8,
+        "name": "GOLDIE",
+        "description": "go",
+        "thumbnail": "/brandLogo/go.png"
+    },
+    {
+        "id": 9,
+        "name": "THE K300",
+        "description": "k300",
+        "thumbnail": "/brandLogo/k300.png"
+    },
+    {
+        "id": 10,
+        "name": "KIAAT",
+        "description": "kia",
+        "thumbnail": "/brandLogo/kia.png"
+    },
+    {
+        "id": 11,
+        "name": "LENINN",
+        "description": "lenin",
+        "thumbnail": "/brandLogo/lenin.png"
+    },
+    {
+        "id": 12,
+        "name": "LEVENTS",
+        "description": "leVe",
+        "thumbnail": "/brandLogo/leVe.png"
+    },
+    {
+        "id": 13,
+        "name": "lEVI`S",
+        "description": "levi",
+        "thumbnail": "/brandLogo/levi.png"
+    },
+    {
+        "id": 14,
+        "name": "MENDE",
+        "description": "men",
+        "thumbnail": "/brandLogo/men.png"
+    },
+    {
+        "id": 15,
+        "name": "OUTERITY",
+        "description": "out",
+        "thumbnail": "/brandLogo/out.png"
+    },
+    {
+        "id": 16,
+        "name": "STUSSY",
+        "description": "stu",
+        "thumbnail": "/brandLogo/stu.png"
+    },
+    {
+        "id": 17,
+        "name": "THE NORTH FACE",
+        "description": "tnf",
+        "thumbnail": "/brandLogo/tnf.png"
+    },
+    {
+        "id": 18,
+        "name": "T-REDX",
+        "description": "tre",
+        "thumbnail": "/brandLogo/tre.png"
+    },
+    {
+        "id": 19,
+        "name": "VANS",
+        "description": "vans",
+        "thumbnail": "/brandLogo/vans.png"
+    },
+    {
+        "id": 20,
+        "name": "YAME",
+        "description": "yaMe",
+        "thumbnail": "/brandLogo/yaMe.png"
+    }
+]

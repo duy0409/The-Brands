@@ -22,7 +22,7 @@ const Carousel = ({ slides }) => {
         <Slider {...settings}>
             {slides.map((slide, index) => (
                 <div key={index}>
-                    <img src={slide} alt={`Slide ${index + 1}`} />
+                    <img src={slide} alt={`Slide ${index + 1}`} width='100%' height='auto' />
                 </div>
             ))}
         </Slider>

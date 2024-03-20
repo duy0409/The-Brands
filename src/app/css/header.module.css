@@ -1,109 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 .header {
-    width: 100%;
-    height: 100px;
-    margin: 0;
-    margin-top: -10px;
-    display: grid;
-    grid-template-columns: 50px 1fr 50px;
-    grid-template-rows: 50px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    position: fixed;
-    z-index: 100;
-    background-color: #181A1B;
-}
-
-.login {
-    bottom: -8px;
-    right: -180px;
-}
-
-.login:hover {
-    background-color: #ffffff;
-}
-
-.like {
-    bottom: -8px;
-    right: -190px;
-}
-
-.like:hover {
-    background-color: #ffffff;
+    padding: 20px;
 }
 
 .logo {
-    margin-left: 60px;
-    margin-top: 50px;
+    max-width: 200px;
+    margin-left: 10%;
 }
 
 .menu {
+    position: relative;
+    display: flex;
+    gap: 20px;
     list-style-type: none;
-    padding: 0;
     margin: 0;
-    position: relative;
-
 }
 
-.header .menu {
-    margin-left: 220px;
-    font-size: 20px;
-}
-
-.menu li {
-    display: inline-block;
-    position: relative;
-    margin-left: 20px;
-    margin-top: 67px;
-}
-
-.menu li a {
-    display: block;
-    padding: 20px 20px;
-    margin-right: 10px;
-    text-decoration: none;
+.item {
+    background-color: #181A1B;
+    font-family: 'Poppins';
     color: #8f816a;
-    font-size: 15px;
-    background-color: #181A1B;
-    height: auto;
+    transition: all 0.3s;
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+    padding-top: 20px;
+
 }
 
-.menu li .item {
-    background-color: #181A1B;
-    height: 42px;
-    font-size: 15px;
+.item:hover {
+    color: rgb(85, 51, 17);
 }
 
 .dropdown {
-    display: none;
     position: absolute;
+    display: none;
     top: 100%;
     left: 0;
+    transition: all 0.3s;
     background-color: #181A1B;
-    width: 150px;
-    font-size: 15px;
-}
-
-#adLv {
-    height: auto;
-    color: #ffffff;
-    font-family: Poppins;
+    z-index: 1;
 }
 
 .menu li:hover .dropdown {
     display: block;
+
 }
 
-.dropdown a {
+
+.dropdownItem {
     display: block;
-    padding: 0;
-    color: #ffffff;
-    height: 15px;
+    text-align: left;
+    padding: 10px;
+    color: white;
     text-decoration: none;
     width: 150px;
+    border-bottom: #ffffff solid 1px;
 }
 
-.dropdown a:hover {
-    background-color: #523131;
+.dropdownItem:first-child {
+    height: 9px;
+    border-bottom: none;
+}
+
+.dropdownItem:last-child {
+    border-bottom: none;
+}
+
+.dropdownItem:hover {
+    background-color: #8f816a;
+}
+
+.dropdownItem:first-child:hover {
+    background-color: #181A1B;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 10%;
 }
