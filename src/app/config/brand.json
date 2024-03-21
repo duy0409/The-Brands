@@ -3,7 +3,8 @@
         "id": 1,
         "name": "ADLV",
         "description": "adLv",
-        "thumbnail": "/brandLogo/adLv.png"
+        "thumbnail": "/brandLogo/adLv.png",
+        "link": "/page1/page.tsx"
     },
     {
         "id": 2,
@@ -73,7 +74,7 @@
     },
     {
         "id": 13,
-        "name": "lEVI`S",
+        "name": "LEVI`S",
         "description": "levi",
         "thumbnail": "/brandLogo/levi.png"
     },

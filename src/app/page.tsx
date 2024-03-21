@@ -9,13 +9,14 @@ import Header from "../app/components/header";
 import Footer from "../app/components/footer";
 import brands from "./config/brand.json";
 import News from "./config/news.json";
-
+// import Page from "./page1/page";
 
 const Home = () => {
   return (
     <div className={bg.container}>
       <div className={bg.background}>
         <Content />
+        {/* <Page /> */}
       </div>
     </div >
   );
@@ -39,7 +40,6 @@ const Content = () => {
             </div>
           </a>
           </div>)}
-
         </div>
       </div>
 
@@ -69,7 +69,6 @@ const Content = () => {
             </div>
           ))}
         </div>
-
       </div >
       <div className={bodyContent.space}><br /><br /><br /></div>
       <a><Footer /></a>

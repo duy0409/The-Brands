@@ -1,0 +1,23 @@
+.bg {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #181a1b;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+}
+
+.text1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 48px;
+  font-family: Roboto;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+
+}
