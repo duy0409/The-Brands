@@ -9,10 +9,10 @@ const Footer = () => {
         <div className={footerStyles.footer}>
             <div className={footerStyles.group1}>
                 <div className={footerStyles.group_child1}>
-                    <a id={footerStyles.logo1}><Image src="/FashionNews/logo.svg" width={182} height={38} alt="Logo" /><br />
+                    <div id={footerStyles.logo1}><Image src="/FashionNews/logo.svg" width={182} height={38} alt="Logo" /><br />
                         Trang thông tin đăng tải hỗ trợ cho các thương hiệu
                         <br />thời trang tại Việt Nam. Mọi thông tin yêu cầu hỗ trợ xin liên hệ
-                        <br />về cho bộ phận hỗ trợ nguyentanchieu2002@gmail.com.</a>
+                        <br />về cho bộ phận hỗ trợ nguyentanchieu2002@gmail.com.</div>
                 </div>
                 <div className={footerStyles.group_child2}>
                     <p id={footerStyles.text1}>Theo dõi tại<br /></p>

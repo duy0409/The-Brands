@@ -71,7 +71,7 @@ const Content = () => {
         </div>
       </div >
       <div className={bodyContent.space}><br /><br /><br /></div>
-      <a><Footer /></a>
+      <div><Footer /></div>
     </div >
   )
 };

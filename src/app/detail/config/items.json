@@ -1,170 +1,1168 @@
 [
     {
-        "id": "1111111",
+        "id": "111111",
         "brand_id": "1",
         "name": "ADLV",
-        "thumbnail": "/brandLogo/adLv.png",
-        "text1": "Cho ra mắt cửa hàng đầu tiên vào năm 2010, với mong muốn mang đến những sản phẩm thời trang youthful style chất lượng và giá cả phù hợp. Sau 5 năm tìm hiểu và nỗ lực hết mình vào đầu năm 2016, chúng tôi bắt đầu cho ra những sản phẩm made in Vietnam mang xu hướng mới mẻ cùng chất lượng tốt nhất và được bán trên toàn quốc. Các sản phẩm của THE K300 hầu như được lấy cảm hứng từ văn hóá thời trang đường phố, tự do hoặc mang hơi hướng retro.",
-        "title": "It's Today",
-        "image": "/FashionNews/artpg1.svg",
-        "text2": "Biểu tượng cho tinh thần khiêm nhường nhưng không ngừng sáng tạo. Mang theo ý nghĩa 'Nó là ngày hôm nay' với mỗi trang phục tạo ra, nên luôn phù hợp với bạn mỗi ngày. Những sản phẩm của chúng tôi sẽ không bao giờ đi trước thời đại và cũng không bao giờ lỗi thời, nó sẽ luôn dành cho ngày hôm này",
-        "text3": "Địa chỉ liên hệ:\n830 Cách Mạng Tháng 8, Phường 5, Quận Tân Bình, Ho Chi Minh City, Vietnam\nThông tin liên hệ:\nWebsite: 3hundred.vn\nFacebook: https://www.facebook.com/TheK300/\nTiktok: https://www.tiktok.com/@k300shop",
+        "thumbnail": "/adLv/body1.svg",
+        "text1": "Ra đời lần đầu tiên vào năm 2017, ACMÉ DE LA VIE (ADLV) với sự am hiểu thị trường cùng các thiết kế hiện đại, phù hợp với thị hiếu chung của những tín đồ thời trang, ADLV đã nhanh chóng vươn mình trở thành một trong những local brand streetwear hàng đầu Hàn Quốc hiện nay. các thiết kế của ADLV luôn hướng tới sự thoải mái, tập trung vào chất lượng với độ bền cao, các sản phẩm của ADLV còn được đầu tư chỉnh chu về chất lượng.",
+        "title": "",
+        "image": "/adLv/body2.svg",
+        "text2": "Cụ thể, T-shirt của ADLV được áp dụng công nghệ Tenter Tumble Washing giúp loại bỏ tối đa tình trạng co rút, biến đổi kích thước kiểu dáng của áo khi giặt. Chính vì những lý do đó, ADLV không chỉ được yêu thích bởi giới trẻ Hàn Quốc, mà ngay cả những ngôi sao hàng đầu Kpop cũng không thể làm ngơ với những thiết kế chất lượng này. Năm 2017, brand ra mắt cửa hàng chính đặt tại khu giàu có bậc nhất Seoul – Gangnam, cho đến nay ADLV đã đưa tên tuổi của mình vượt ra khỏi lãnh thổ Hàn Quốc.",
+        "text3": "Thương hiệu ACMÉ DE LA VIE được phân phối chính thức bởi Công ty Cổ Phần Quốc tế Tam Sơn Giấy chứng nhận đăng ký kinh doanh số: 0101794983 do Sở Kế hoạch và Đầu tư thành phố Hà Nội cấp lần đầu ngày 07 tháng 10 năm 2005 Địa chỉ trụ sở : Số 21, Ngõ 2, Lê Văn Hưu, Quận Hai Bà Trưng, Hà Nội, Việt Nam Tel: +84 24 39369757 Fax: +84 24 39369759",
         "listdetail": [
             {
-                "id": "222221",
+                "id": "111112",
                 "name": "tp1",
-                "thumbnail": "/item/k18.svg",
+                "thumbnail": "/adLv/a1.svg",
                 "text": "Trang phục 1"
             },
             {
-                "id": "222222",
+                "id": "111113",
                 "name": "tp2",
-                "thumbnail": "/item/k19.svg",
+                "thumbnail": "/adLv/a2.svg",
                 "text": "Trang phục 2"
             },
             {
-                "id": "222223",
+                "id": "111114",
                 "name": "tp3",
-                "thumbnail": "/item/k20.svg",
+                "thumbnail": "/adLv/a3.svg",
                 "text": "Trang phục 3"
             },
             {
-                "id": "222224",
+                "id": "111115",
                 "name": "tp4",
-                "thumbnail": "/item/k21.svg",
+                "thumbnail": "/adLv/a4.svg",
                 "text": "Trang phục 4"
             },
             {
-                "id": "222225",
+                "id": "111116",
                 "name": "tp5",
-                "thumbnail": "/item/k22.svg",
+                "thumbnail": "/adLv/a5.svg",
                 "text": "Trang phục 5"
             },
             {
-                "id": "222226",
+                "id": "111117",
                 "name": "tp6",
-                "thumbnail": "/item/k23.svg",
+                "thumbnail": "/adLv/a6.svg",
                 "text": "Trang phục 6"
             },
             {
-                "id": "222227",
+                "id": "111118",
                 "name": "tp7",
-                "thumbnail": "/item/k24.svg",
+                "thumbnail": "/adLv/a7.svg",
                 "text": "Trang phục 7"
             },
             {
-                "id": "222228",
+                "id": "111119",
                 "name": "tp8",
-                "thumbnail": "/item/k25.svg",
+                "thumbnail": "/adLv/a8.svg",
                 "text": "Trang phục 8"
             },
             {
-                "id": "222229",
+                "id": "111120",
                 "name": "tp9",
-                "thumbnail": "/item/k26.svg",
+                "thumbnail": "/adLv/a9.svg",
                 "text": "Trang phục 9"
             },
             {
-                "id": "222230",
+                "id": "111121",
                 "name": "tp10",
-                "thumbnail": "/item/k27.svg",
+                "thumbnail": "/adLv/a10.svg",
                 "text": "Trang phục 10"
             },
             {
-                "id": "222231",
+                "id": "111122",
                 "name": "tp11",
-                "thumbnail": "/item/k28.svg",
+                "thumbnail": "/adLv/a11.svg",
                 "text": "Trang phục 11"
             },
             {
-                "id": "222232",
+                "id": "111123",
                 "name": "tp12",
-                "thumbnail": "/item/k29.svg",
+                "thumbnail": "/adLv/a12.svg",
                 "text": "Trang phục 12"
             }
         ]
     },
     {
-        "id": "1111111",
+        "id": "222222",
         "brand_id": "2",
         "name": "ATYS",
-        "thumbnail": "/brandLogo/at.png",
-        "text1": "Cho ra mắt cửa hàng đầu tiên vào năm 2010, với mong muốn mang đến những sản phẩm thời trang youthful style chất lượng và giá cả phù hợp. Sau 5 năm tìm hiểu và nỗ lực hết mình vào đầu năm 2016, chúng tôi bắt đầu cho ra những sản phẩm made in Vietnam mang xu hướng mới mẻ cùng chất lượng tốt nhất và được bán trên toàn quốc. Các sản phẩm của THE K300 hầu như được lấy cảm hứng từ văn hóá thời trang đường phố, tự do hoặc mang hơi hướng retro.",
-        "title": "It's Today",
-        "image": "/FashionNews/artpg1.svg",
-        "text2": "Biểu tượng cho tinh thần khiêm nhường nhưng không ngừng sáng tạo. Mang theo ý nghĩa 'Nó là ngày hôm nay' với mỗi trang phục tạo ra, nên luôn phù hợp với bạn mỗi ngày. Những sản phẩm của chúng tôi sẽ không bao giờ đi trước thời đại và cũng không bao giờ lỗi thời, nó sẽ luôn dành cho ngày hôm này",
-        "text3": "Địa chỉ liên hệ:\n830 Cách Mạng Tháng 8, Phường 5, Quận Tân Bình, Ho Chi Minh City, Vietnam\nThông tin liên hệ:\nWebsite: 3hundred.vn\nFacebook: https://www.facebook.com/TheK300/\nTiktok: https://www.tiktok.com/@k300shop",
+        "thumbnail": "/atLs/aty1.svg",
+        "text1": "Bất kì ai theo đuổi phong cách Hàn Quốc dễ thương, trendy nhưng không kém phần cá tính sẽ không thể bỏ qua cửa hàng thời trang nội địa Atys. Mặc dù chỉ mới ra mắt vào năm 2020 nhưng Atys đã khẳng định vị thế của mình trong lòng các bạn trẻ yêu thích phong cách thời trang ” kẹo ngọt “.",
+        "title": "",
+        "image": "/atLs/aty2.svg",
+        "text2": "",
+        "text3": "Thông tin liên hệ Địa chỉ: 46/5 Trần Quang Diệu, Phường 14, Quận 3, TP Hồ Chí Minh Điện thoại: 0877907867 Email tranthanhluong2413@gmail.com Fanpage: https://www.facebook.com/Atys.vn/ Instagram: https://www.instagram.com/atys.vn/ Shopee: Atys.vn",
         "listdetail": [
             {
                 "id": "222221",
                 "name": "tp1",
-                "thumbnail": "/item/k18.svg",
+                "thumbnail": "/atLs/aty3.svg",
                 "text": "Trang phục 1"
             },
             {
                 "id": "222222",
                 "name": "tp2",
-                "thumbnail": "/item/k19.svg",
+                "thumbnail": "/atLs/aty4.svg",
                 "text": "Trang phục 2"
             },
             {
                 "id": "222223",
                 "name": "tp3",
-                "thumbnail": "/item/k20.svg",
+                "thumbnail": "/atLs/aty5.svg",
                 "text": "Trang phục 3"
             },
             {
                 "id": "222224",
                 "name": "tp4",
-                "thumbnail": "/item/k21.svg",
+                "thumbnail": "/atLs/aty6.svg",
                 "text": "Trang phục 4"
             },
             {
                 "id": "222225",
                 "name": "tp5",
-                "thumbnail": "/item/k22.svg",
+                "thumbnail": "/atLs/aty7.svg",
                 "text": "Trang phục 5"
             },
             {
                 "id": "222226",
                 "name": "tp6",
-                "thumbnail": "/item/k23.svg",
+                "thumbnail": "/atLs/aty8.svg",
                 "text": "Trang phục 6"
             },
             {
                 "id": "222227",
                 "name": "tp7",
-                "thumbnail": "/item/k24.svg",
+                "thumbnail": "/atLs/aty9.svg",
                 "text": "Trang phục 7"
             },
             {
                 "id": "222228",
                 "name": "tp8",
-                "thumbnail": "/item/k25.svg",
+                "thumbnail": "/atLs/aty10.svg",
+                "text": "Trang phục 8"
+            }
+        ]
+    },
+    {
+        "id": "444444",
+        "brand_id": "4",
+        "name": "DAVIES",
+        "thumbnail": "/davies/davi1.svg",
+        "text1": "Thành lập năm 2015, local brand Davies được giới trẻ quan tâm với biểu tượng Dee năm 2018. Kết quả của việc DÁM BẮT ĐẦU, sự dịch chuyển từ cửa hàng quần áo sang nhãn hiệu thời trang tự sản xuất và thiết kế. Với sự nỗ lực chuyển đổi thành công đã thực sự chinh phục cộng đồng streetwear bằng sự sáng tạo trong thiết kế và sản xuất của Davies Team thuộc sở hữu trí tuệ RaymaCorp Asia",
+        "title": "",
+        "image": "/davies/davi2.svg",
+        "text2": "DAVIES là thương hiệu thời trang lấy cảm hứng từ trang phục đường phố (streetwear). Thành quả từ chất xám của các nghệ sĩ Davies dựa trên sự sáng tạo “out of box” để tạo nên sự “đột phá” . Davies không theo các phong trào, Davies tạo ra phong trào với những tư duy mới và ý tưởng độc đáo tìm thấy trong các artwork và công nghệ sản xuất. Điều khiến Davies luôn tiến về phía trước bởi mong muốn tạo ra một sân chơi đúng nghĩa dành riêng cho cộng đồng giới trẻ streetwear làm chủ.",
+        "text3": "Thông tin liên hệ Địa chỉ:  K46/60 Cao Thắng, Phường Thanh Bình, Quận Hải Châu, Thành phố Đà Nẵng SDT: 0899966116 Email: daviesbrand.vn@gmail.com Shopee: https://shopee.vn/davies.vn",
+        "listdetail": [
+            {
+                "id": "444441",
+                "name": "tp1",
+                "thumbnail": "/davies/d1.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "444442",
+                "name": "tp2",
+                "thumbnail": "/davies/d2.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "444443",
+                "name": "tp3",
+                "thumbnail": "/davies/d3.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "444444",
+                "name": "tp4",
+                "thumbnail": "/davies/d4.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "444445",
+                "name": "tp5",
+                "thumbnail": "/davies/d5.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "444446",
+                "name": "tp6",
+                "thumbnail": "/davies/d6.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "444447",
+                "name": "tp7",
+                "thumbnail": "/davies/d7.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "444448",
+                "name": "tp8",
+                "thumbnail": "/davies/d8.svg",
                 "text": "Trang phục 8"
             },
             {
-                "id": "222229",
+                "id": "444449",
+                "name": "tp8",
+                "thumbnail": "/davies/d9.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "444450",
+                "name": "tp8",
+                "thumbnail": "/davies/d10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "444451",
+                "name": "tp8",
+                "thumbnail": "/davies/d11.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "444452",
+                "name": "tp8",
+                "thumbnail": "/davies/d12.svg",
+                "text": "Trang phục 8"
+            }
+        ]
+    },
+    {
+        "id": "555555",
+        "brand_id": "5",
+        "name": "DEGREY",
+        "thumbnail": "/degrey/dg1.svg",
+        "text1": "Thành lập từ năm 2016 và được nhiều bạn trẻ biết đến qua những mẫu áo truyền thông, Degrey hiện đang từng bước khẳng định vị trí của mình trong bản đồ streetwear Việt Nam. Degrey may mắn được hợp tác với các thương hiệu cùng những người có sức ảnh hưởng đến giới trẻ tạo nên sự khác biệt và  góp phần bé nhỏ thổi hồn Việt vào thời trang.",
+        "title": "",
+        "image": "/degrey/dg2.svg",
+        "text2": "Cái tên Degrey được tạo ra rất ngẫu hứng, xuất phát từ “Chuỗi ngày u buồn về sự nghiệp, tương lai trong quá khứ của chính mình” – theo lời chia sẻ của Degrey’s founder. Là một local brand mang khuynh hướng Á Đông, kết hợp giữa hai yếu tố truyền thống và hiện đại, Degrey luôn cố gắng mang đến những thông điệp văn hoá ý nghĩa qua từng đường nét thiết kế. Tiếp theo đó sự sang trọng, thanh lịch cũng là những yếu tố tạo nên một Degrey đầy sức hút, sự lựa chọn hoàn hảo dành cho các bạn trẻ yêu thích phong cách hoài cổ nhưng vẫn muốn thoát xác trong những bộ cánh mới mẻ hơn.",
+        "text3": "Thông tin liên hệ Facebook: https://www.facebook.com/degrey.saigon Instagram: https://www.instagram.com/degrey.saigon/ Shopee: https://shopee.vn/degrey.vn",
+        "listdetail": [
+            {
+                "id": "522221",
+                "name": "tp1",
+                "thumbnail": "/degrey/dg3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "522222",
+                "name": "tp2",
+                "thumbnail": "/degrey/dg4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "522223",
+                "name": "tp3",
+                "thumbnail": "/degrey/dg5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "522224",
+                "name": "tp4",
+                "thumbnail": "/degrey/dg6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "522225",
+                "name": "tp5",
+                "thumbnail": "/degrey/dg7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "522226",
+                "name": "tp6",
+                "thumbnail": "/degrey/dg8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "522227",
+                "name": "tp7",
+                "thumbnail": "/degrey/dg9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "522228",
+                "name": "tp8",
+                "thumbnail": "/degrey/dg10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "522229",
                 "name": "tp9",
-                "thumbnail": "/item/k26.svg",
+                "thumbnail": "/degrey/dg11.svg",
                 "text": "Trang phục 9"
             },
             {
-                "id": "222230",
+                "id": "5222210",
                 "name": "tp10",
-                "thumbnail": "/item/k27.svg",
+                "thumbnail": "/degrey/dg12.svg",
                 "text": "Trang phục 10"
             },
             {
-                "id": "222231",
+                "id": "5222211",
                 "name": "tp11",
-                "thumbnail": "/item/k28.svg",
+                "thumbnail": "/degrey/dg13.svg",
                 "text": "Trang phục 11"
             },
             {
-                "id": "222232",
+                "id": "5222212",
                 "name": "tp12",
-                "thumbnail": "/item/k29.svg",
+                "thumbnail": "/degrey/dg14.svg",
+                "text": "Trang phục 12"
+            }
+        ]
+    },
+    {
+        "id": "600001",
+        "brand_id": "6",
+        "name": "ESSENTIAL",
+        "thumbnail": "/essential/en1.svg",
+        "text1": "Essentials là một dòng sản phẩm thuộc thương hiệu Fear of God, được thiết kế để mang lại sự thoải mái và phong cách hàng ngày. Dòng sản phẩm này thường tập trung vào các thiết kế cơ bản như áo hoodie, áo thun, quần jogger và các phụ kiện, với sự chú trọng vào chất liệu chất lượng cao và sự đơn giản trong thiết kế.",
+        "title": "",
+        "image": "/essential/en2.svg",
+        "text2": "",
+        "text3": "Essentials thường mang đến sự linh hoạt và dễ dàng kết hợp trong việc mix đồ, làm cho các sản phẩm của họ trở thành lựa chọn phổ biến cho những người ưa thích phong cách thời trang đường phố. Đặc biệt, dòng sản phẩm này thường có mức giá phải chăng hơn so với các sản phẩm trong bộ sưu tập chính của Fear of God, giúp họ trở nên dễ tiếp cận hơn với một đối tượng rộng lớn hơn trong cộng đồng yêu thời trang.",
+        "listdetail": [
+            {
+                "id": "600002",
+                "name": "tp1",
+                "thumbnail": "/essential/en3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "600003",
+                "name": "tp2",
+                "thumbnail": "/essential/en4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "600004",
+                "name": "tp3",
+                "thumbnail": "/essential/en5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "600005",
+                "name": "tp4",
+                "thumbnail": "/essential/en6.svg",
+                "text": "Trang phục 4"
+            }
+        ]
+    },
+    {
+        "id": "777777",
+        "brand_id": "7",
+        "name": "FEAR OF GOD",
+        "thumbnail": "/fearofgod/fog1.svg",
+        "text1": "Fear of God là một thương hiệu thời trang đường phố cao cấp được sáng lập bởi Jerry Lorenzo vào năm 2012. Thương hiệu này nổi tiếng với việc kết hợp giữa phong cách thời trang đường phố và các yếu tố thời trang cao cấp, tạo ra những thiết kế mang tính biểu tượng và đặc trưng. Fear of God thường sử dụng các chất liệu chất lượng cao và các cấu trúc đơn giản nhưng sang trọng để tạo ra các sản phẩm như áo hoodie, áo khoác bomber, quần jeans, giày dép và phụ kiện.",
+        "title": "",
+        "image": "/fearofgod/fog2.svg",
+        "text2": "Thương hiệu này thường được các nghệ sĩ, người nổi tiếng và người yêu thời trang ưa chuộng, và đã tạo ra những cơn sốt trong cộng đồng thời trang đường phố. Nó không chỉ là một thương hiệu thời trang mà còn trở thành biểu tượng của một phong cách sống và cái nhìn độc đáo trong thế giới thời trang.",
+        "text3": "",
+        "listdetail": [
+            {
+                "id": "7777771",
+                "name": "tp1",
+                "thumbnail": "/fearofgod/fog3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "7777772",
+                "name": "tp2",
+                "thumbnail": "/fearofgod/fog4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "7777773",
+                "name": "tp3",
+                "thumbnail": "/fearofgod/fog5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "7777774",
+                "name": "tp4",
+                "thumbnail": "/fearofgod/fog6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "7777775",
+                "name": "tp5",
+                "thumbnail": "/fearofgod/fog7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "7777776",
+                "name": "tp6",
+                "thumbnail": "/fearofgod/fog8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "7777777",
+                "name": "tp7",
+                "thumbnail": "/fearofgod/fog9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "7777778",
+                "name": "tp8",
+                "thumbnail": "/fearofgod/fog10.svg",
+                "text": "Trang phục 8"
+            }
+        ]
+    },
+    {
+        "id": "800001",
+        "brand_id": "8",
+        "name": "GOLDIE",
+        "thumbnail": "/goldie/go1.svg",
+        "text1": "Được thành lập vào năm 2017, Goldie là thương hiệu thời trang đường phố lấy cảm hứng từ văn hoá đại chúng, nghệ thuật đương đại, điện ảnh, kiến trúc, youth subculture. Các sản phẩm của Goldie đề cao sáng tạo, đa phong cách nhưng phải mang tính ứng dụng cao. Goldie đặc biệt tập trung vào việc nghiên cứu form dáng, chất liệu, kết hợp những chi tiết high-end, ứng dụng những công nghệ in thêu mới lên sản phẩm.",
+        "title": "",
+        "image": "/goldie/go2.svg",
+        "text2": "",
+        "text3": "Địa chỉ liên hệ Hà Nội : 18 ngõ 31 Hoàng Cầu, quận Đống Đa Sài Gòn : The New Playground 90 Lê Lai, quận 1 Thông tin liên hệ Website:      https://goldievietnam.com/ Instagram: https://www.instagram.com/goldievietnam/ Facebook:    https://www.facebook.com/goldievietnam Shopee: https://shopee.vn/goldievietnam Hotline:   039 333 2103",
+        "listdetail": [
+            {
+                "id": "800002",
+                "name": "tp1",
+                "thumbnail": "/goldie/go3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "800003",
+                "name": "tp2",
+                "thumbnail": "/goldie/go4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "800004",
+                "name": "tp3",
+                "thumbnail": "/goldie/go5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "800005",
+                "name": "tp4",
+                "thumbnail": "/goldie/go6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "800006",
+                "name": "tp5",
+                "thumbnail": "/goldie/go7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "800007",
+                "name": "tp6",
+                "thumbnail": "/goldie/go8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "800008",
+                "name": "tp7",
+                "thumbnail": "/goldie/go9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "800009",
+                "name": "tp8",
+                "thumbnail": "/goldie/go10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "800010",
+                "name": "tp9",
+                "thumbnail": "/goldie/go11.svg",
+                "text": "Trang phục 9"
+            },
+            {
+                "id": "800011",
+                "name": "tp10",
+                "thumbnail": "/goldie/go12.svg",
+                "text": "Trang phục 10"
+            },
+            {
+                "id": "800012",
+                "name": "tp11",
+                "thumbnail": "/goldie/go13.svg",
+                "text": "Trang phục 11"
+            },
+            {
+                "id": "800013",
+                "name": "tp12",
+                "thumbnail": "/goldie/go14.svg",
+                "text": "Trang phục 12"
+            }
+        ]
+    },
+    {
+        "id": "900001",
+        "brand_id": "9",
+        "name": "THE K300 SHOP",
+        "thumbnail": "/k300/k1.svg",
+        "text1": "Cho ra mắt cửa hàng đầu tiên vào năm 2010, với mong muốn mang đến những sản phẩm thời trang youthful style chất lượng và giá cả phù hợp. Sau 5 năm tìm hiểu và nỗ lực hết mình vào đầu năm 2016, chúng tôi bắt đầu cho ra những sản phẩm made in Vietnam mang xu hướng mới mẻ cùng chất lượng tốt nhất và được bán trên toàn quốc.Các sản phẩm của THE K300 hầu như được lấy cảm hứng từ văn hóá thời trang đường phố, tự do hoặc mang hơi hướng retro.",
+        "title": "It's Today",
+        "image": "/k300/k2.svg",
+        "text2": "Biểu tượng cho tinh thần khiêm nhường nhưng không ngừng sáng tạo. Mang theo ý nghĩa Nó là ngày hôm nay với mỗi trang phục tạo ra, nên luôn phù hợp với bạn mỗi ngày. Những sản phẩm của chúng tôi sẽ không bao giờ đi trước thời đại và cũng không bao giờ lỗi thời, nó sẽ luôn dành cho ngày hôm này",
+        "text3": "Địa chỉ liên hệ: 830 Cách Mạng Tháng 8, Phường 5, Quận Tân Bình, Ho Chi Minh City, Vietnam Thông tin liên hệ: Website: 3hundred.vn Facebook: https://www.facebook.com/TheK300/ Tiktok: https://www.tiktok.com/@k300shop",
+        "listdetail": [
+            {
+                "id": "900002",
+                "name": "tp1",
+                "thumbnail": "/k300/k3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "900003",
+                "name": "tp2",
+                "thumbnail": "/k300/k4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "900004",
+                "name": "tp3",
+                "thumbnail": "/k300/k5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "900005",
+                "name": "tp4",
+                "thumbnail": "/k300/k6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "900006",
+                "name": "tp5",
+                "thumbnail": "/k300/k7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "900007",
+                "name": "tp6",
+                "thumbnail": "/k300/k8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "900008",
+                "name": "tp7",
+                "thumbnail": "/k300/k9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "900009",
+                "name": "tp8",
+                "thumbnail": "/k300/k10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "900010",
+                "name": "tp9",
+                "thumbnail": "/k300/k11.svg",
+                "text": "Trang phục 9"
+            },
+            {
+                "id": "900011",
+                "name": "tp10",
+                "thumbnail": "/k300/k12.svg",
+                "text": "Trang phục 10"
+            },
+            {
+                "id": "900012",
+                "name": "tp11",
+                "thumbnail": "/k300/k13.svg",
+                "text": "Trang phục 11"
+            },
+            {
+                "id": "900013",
+                "name": "tp12",
+                "thumbnail": "/k300/k14.svg",
+                "text": "Trang phục 12"
+            }
+        ]
+    },
+    {
+        "id": "100001",
+        "brand_id": "10",
+        "name": "KIAAT",
+        "thumbnail": "/kiaat/ki1.svg",
+        "text1": "Kiaat là một local brand được thành lập và có mặt tại thị trường Việt Nam đã được vài năm với châm ngôn “Không cần thiết phải gắn bó với phong cách hàng ngày của chúng ta, chỉ cần thử một cái gì đó mới mẻ. Hãy thử Kiaat!”. Brand này muốn mang thông điệp rằng bên cạnh phong cách của mình thì hãy thử cởi mở với những điều mới lạ để khám phá mọi thứ xung quanh.",
+        "title": "",
+        "image": "/kiaat/ki2.svg",
+        "text2": "",
+        "text3": "THÔNG TIN LIÊN HỆ: SĐT: 094 506 62 35 EMAIL: kiaatgallery@gmail.com SHOPEE: https://shopee.vn/kiaatgallery FACEBOOK: KiaatGallery INSTAGRAM: kiaatgallery",
+        "listdetail": [
+            {
+                "id": "100002",
+                "name": "tp1",
+                "thumbnail": "/kiaat/ki3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "100003",
+                "name": "tp2",
+                "thumbnail": "/kiaat/ki4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "100004",
+                "name": "tp3",
+                "thumbnail": "/kiaat/ki5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "100005",
+                "name": "tp4",
+                "thumbnail": "/kiaat/ki6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "100006",
+                "name": "tp5",
+                "thumbnail": "/kiaat/ki7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "100007",
+                "name": "tp6",
+                "thumbnail": "/kiaat/ki8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "100008",
+                "name": "tp7",
+                "thumbnail": "/kiaat/ki9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "100009",
+                "name": "tp8",
+                "thumbnail": "/kiaat/ki10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "100010",
+                "name": "tp9",
+                "thumbnail": "/kiaat/ki11.svg",
+                "text": "Trang phục 9"
+            },
+            {
+                "id": "100011",
+                "name": "tp10",
+                "thumbnail": "/kiaat/ki12.svg",
+                "text": "Trang phục 10"
+            },
+            {
+                "id": "100012",
+                "name": "tp11",
+                "thumbnail": "/kiaat/ki13.svg",
+                "text": "Trang phục 11"
+            },
+            {
+                "id": "100013",
+                "name": "tp12",
+                "thumbnail": "/kiaat/ki14.svg",
+                "text": "Trang phục 12"
+            }
+        ]
+    },
+    {
+        "id": "111101",
+        "brand_id": "11",
+        "name": "LENINN",
+        "thumbnail": "/leninn/le1.svg",
+        "text1": "LENINN là một local brand cực kỳ nổi tiếng trong giới local brand do được nhiều người ưa thích vì sự thoải mái và đơn giản của nó làm nên tên tuổi của thương hiệu.Nhưng không phải ai cũng biết rằng LENNIN là cửa hàng ván trượt nhưng cùng với sự phát triển của đồ local brand thì thương hiệu này hiện đang mở rộng bán thêm quần áo.",
+        "title": "",
+        "image": "/leninn/le2.svg",
+        "text2": "",
+        "text3": "WEB: http: //leninn.com/\nSHOPEE: https://shopee.vn/leninn.skateshop \nFACEBOOK: leninnskateshop \nINSTAGRAM: leninn.skateshop",
+        "listdetail": [
+            {
+                "id": "1011011",
+                "name": "tp1",
+                "thumbnail": "/leninn/le3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "1011012",
+                "name": "tp2",
+                "thumbnail": "/leninn/le4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "1011013",
+                "name": "tp3",
+                "thumbnail": "/leninn/le5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "1011014",
+                "name": "tp4",
+                "thumbnail": "/leninn/le6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "1011015",
+                "name": "tp5",
+                "thumbnail": "/leninn/le7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "1011016",
+                "name": "tp6",
+                "thumbnail": "/leninn/le8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "1011019",
+                "name": "tp9",
+                "thumbnail": "/leninn/le9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "10110110",
+                "name": "tp10",
+                "thumbnail": "/leninn/le10.svg",
+                "text": "Trang phục 8"
+            }
+        ]
+    },
+    {
+        "id": "131313",
+        "brand_id": "13",
+        "name": "LEVIS",
+        "thumbnail": "/levi/levi1.svg",
+        "text1": "Đó là khi Levi Strauss & Co. bắt đầu. Vào năm 1873, Levi Strauss, đã hợp tác với Jacob Davis để phát minh ra chiếc quần jean màu xanh. Và từ đó đến nay, chúng tôi đã không ngừng đổi mới chiếc quần jean. Trải qua nhiều thế hệ nối tiếp, Levi’s® jeans đã luôn thu hút sự chú ý, trí tưởng tượng và lòng trung thành của nhiều cá nhân khác nhau. Thương hiệu Levi’s® tiếp tục khẳng định mình với các tác phẩm kinh điển như 501® jeans, các bộ sưu tập sáng tạo như Commuter, Levi’s® Revel và nhiều hơn thế.",
+        "title": "",
+        "image": "/levi/levi2.svg",
+        "text2": "",
+        "text3": "",
+        "listdetail": [
+            {
+                "id": "1313131",
+                "name": "tp1",
+                "thumbnail": "/levi/levi3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "1313132",
+                "name": "tp2",
+                "thumbnail": "/levi/levi4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "1313133",
+                "name": "tp3",
+                "thumbnail": "/levi/levi5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "1313134",
+                "name": "tp4",
+                "thumbnail": "/levi/levi6.svg",
+                "text": "Trang phục 4"
+            }
+        ]
+    },
+    {
+        "id": "121212",
+        "brand_id": "12",
+        "name": "LEVENTS",
+        "thumbnail": "/levents/lv1.svg",
+        "text1": "Levents là một thương hiệu thời trang dành cho giới trẻ tại Việt Nam, với chất lượng sản phẩm cao đi kèm với mức giá hợp túi tiền và các thiết kế tinh tế được cho ra mắt đều đặn vào mỗi tháng.Bắt đầu hoạt động trong lĩnh vực streetwear từ năm 2017 với một cửa hàng tại Sài Gòn và lợi thế đa dạng sản phẩm, thương hiệu đã nhanh chóng thu hút sự chú ý.",
+        "title": "",
+        "image": "/levents/lv2.svg",
+        "text2": "Đến năm 2019, với những phản hồi và góp ý quan trọng từ khách hàng Levents® đã chính thức ra đời – bắt đầu thiết kế và cho ra đời những mẫu quần áo và phụ kiện của chính thương hiệu mình, đồng thời bắt tay vào xây dựng một thương hiệu chặt chẽ từ mặt thiết kế đến mô hình kinh doanh.",
+        "text3": "Thông tin liên hệ:\nĐịa chỉ:325 Hoàng Sa, Tân Định, Quận 1, HCMThe New Playground, 04 Phạm Ngũ Lão, Quận 1, HCM54 Mậu Thân, phường An Phú, Quận Ninh Kiều, Thành PhốCầnT\nWebsite: https://levents.vn/\nHotline: 1900 633028\nMail: contact@levents.vn\nFacebook: https://www.facebook.com/Leventsbrand\nInstagram: https://www.instagram.com/levents.offici\nShopee: levents.shop",
+        "listdetail": [
+            {
+                "id": "1212121",
+                "name": "tp1",
+                "thumbnail": "/levents/lv3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "1212122",
+                "name": "tp2",
+                "thumbnail": "/levents/lv4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "1212123",
+                "name": "tp3",
+                "thumbnail": "/levents/lv5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "1212124",
+                "name": "tp4",
+                "thumbnail": "/levents/lv6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "1212125",
+                "name": "tp5",
+                "thumbnail": "/levents/lv7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "1212126",
+                "name": "tp6",
+                "thumbnail": "/levents/lv8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "1212127",
+                "name": "tp7",
+                "thumbnail": "/levents/lv9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "1212128",
+                "name": "tp8",
+                "thumbnail": "/levents/lv10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "1212129",
+                "name": "tp9",
+                "thumbnail": "/levents/lv11.svg",
+                "text": "Trang phục 9"
+            },
+            {
+                "id": "12121210",
+                "name": "tp10",
+                "thumbnail": "/levents/lv12.svg",
+                "text": "Trang phục 10"
+            },
+            {
+                "id": "12121211",
+                "name": "tp10",
+                "thumbnail": "/levents/lv13.svg",
+                "text": "Trang phục 11"
+            },
+            {
+                "id": "12121212",
+                "name": "tp10",
+                "thumbnail": "/levents/lv14.svg",
+                "text": "Trang phục 12"
+            }
+        ]
+    },
+    {
+        "id": "140001",
+        "brand_id": "14",
+        "name": "MENDE",
+        "thumbnail": "/mende/men1.svg",
+        "text1": "Ra đời năm 2016 . MENDE mang hoài bão và mục tiêu trở thành giải pháp trang phục hiệu quả để biểu hiện tối đa cá tính mỗi người. Đến nay MENDE đã có định hướng và đang khẳng định vị thế ổn định trong phân khúc thời trang giới trẻ.",
+        "title": "",
+        "image": "/mende/men2.svg",
+        "text2": "",
+        "text3": "Địa chỉ liên hệ: Thành phố Hồ Chí Minh: 190A Huỳnh Văn Bánh, Phú Nhuận Thông tin liên hệ Website:       http://mende.vn/ Instagram:   https://www.instagram.com/mende.closet/ Facebook:    https://www.facebook.com/mendestore Shopee: https://shopee.vn/mendestore Hotline:   078 598 8252",
+        "listdetail": [
+            {
+                "id": "140002",
+                "name": "tp1",
+                "thumbnail": "/mende/men3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "140003",
+                "name": "tp2",
+                "thumbnail": "/mende/men4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "140004",
+                "name": "tp3",
+                "thumbnail": "/mende/men5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "140005",
+                "name": "tp4",
+                "thumbnail": "/mende/men6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "140006",
+                "name": "tp5",
+                "thumbnail": "/mende/men7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "140007",
+                "name": "tp6",
+                "thumbnail": "/mende/men8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "140008",
+                "name": "tp7",
+                "thumbnail": "/mende/men9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "140009",
+                "name": "tp8",
+                "thumbnail": "/mende/men10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "140010",
+                "name": "tp9",
+                "thumbnail": "/mende/men11.svg",
+                "text": "Trang phục 9"
+            },
+            {
+                "id": "140011",
+                "name": "tp10",
+                "thumbnail": "/mende/men12.svg",
+                "text": "Trang phục 10"
+            },
+            {
+                "id": "140012",
+                "name": "tp11",
+                "thumbnail": "/mende/men13.svg",
+                "text": "Trang phục 11"
+            },
+            {
+                "id": "140013",
+                "name": "tp12",
+                "thumbnail": "/mende/men14.svg",
+                "text": "Trang phục 12"
+            }
+        ]
+    },
+    {
+        "id": "150001",
+        "brand_id": "15",
+        "name": "OUTERITY",
+        "thumbnail": "/outerity/out1.svg",
+        "text1": "Mặc dù chỉ mới ra mắt vào năm 2021, Outerity đã thoả mãn niềm đam mê thời trang của các tín đồ và chung tay xây dựng cộng đồng Local Brand Việt Nam. Outerity xuất hiện để đem đến một sân chơi với áo chất lượng tốt nhất và giá cả vô cùng hấp dẫn phù hợp với tất cả các lứa tuổi khắp mọi miền đất nước. Outerity sẽ update tủ đồ và phong cách của bạn thông qua các sản phẩm đơn giản mà tinh tế của mình.",
+        "title": "",
+        "image": "/outerity/out2.svg",
+        "text2": "Phong cách của Outerity hướng tới là sự đơn giản nhưng cá tính. Những sản phẩm của Outerity ra mắt với thiết kế Logo không rườm rà, cầu kì với những nét vẽ tinh tế nhưng không kém phần nổi bật sản phẩm. Bên cạnh, các thiết kế của Outerity còn mang phong cách dễ thương và mới mẻ. Mặc dù là local brand non trẻ nhất trong làng Local Brand nhưng các thiết kế và sản phẩm của Outerity luôn được đánh giá cao.",
+        "text3": "Thông tin liên hệ Hotline: ‭086 2642568‬‬ Email: outerity.local@gmail.com Fanpage: https://www.facebook.com/outerity/ Instagram: https://www.instagram.com/outerity.sg/ Shopee: Outerity",
+        "listdetail": [
+            {
+                "id": "150002",
+                "name": "tp1",
+                "thumbnail": "/outerity/out3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "150003",
+                "name": "tp2",
+                "thumbnail": "/outerity/out4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "150004",
+                "name": "tp3",
+                "thumbnail": "/outerity/out5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "150005",
+                "name": "tp4",
+                "thumbnail": "/outerity/out6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "150006",
+                "name": "tp5",
+                "thumbnail": "/outerity/out7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "150007",
+                "name": "tp6",
+                "thumbnail": "/outerity/out8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "150007",
+                "name": "tp6",
+                "thumbnail": "/outerity/out9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "150007",
+                "name": "tp6",
+                "thumbnail": "/outerity/out10.svg",
+                "text": "Trang phục 8"
+            }
+        ]
+    },
+    {
+        "id": "182220",
+        "brand_id": "18",
+        "name": "T-REDX",
+        "thumbnail": "/tRedx/red1.svg",
+        "text1": "Năm 2019 , T-REDX lần đầu được chào sân thị trường nội địa Việt  Nam với một câu  chuyện tiền sử hết sức dị biệt. Trải qua hai năm phát triển, với sự đầu tư chỉn chu từ hình ảnh đến các chi tiết trong thiết kế của mình, T-REDX đã khẳng định được vị trí của mình trong sân chơi thời trang và được ví von như” Khủng long bạo chúa ” của giới local brand tại Việt Nam.",
+        "title": "",
+        "image": "/tRedx/red2.svg",
+        "text2": "T-REDX: câu chuyện tiền sử về loài khủng long bạo chúa.Ngay từ chiếc logo độc đáo mang hình khủng long đã cho thấy được sự đầu tư trong mặt hình ảnh của brand này. Câu chuyện tiền sử về các loài khủng long luôn là đề tài bí ẩn mang lại sự kích thích cho mọi người, tuy nhiên chủ đề này lại rất hiếm xuất hiện và được khai thác trong ngành thời trang. Với tâm lý yêu thích tìm hiểu về khủng long và thời kì tiền sử, các Co-founder của T-REDX đã bắt tay vào thực hiện ý tưởng và lồng ghép câu chuyện đó vào trong các thiết kế.",
+        "text3": "Địa chỉ liên hệ:\nĐịa chỉ: 80/68A Trần Quang Diệu, Phường 4, Quận 3, Thành Phố Hồ Chí Minh., Vietnam\nThông tin liên hệ:\nFacebook: https://www.facebook.com/tredxofficial\nInstagram: https://www.instagram.com/tredx.official/",
+        "listdetail": [
+            {
+                "id": "182221",
+                "name": "tp1",
+                "thumbnail": "/tRedx/red3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "182222",
+                "name": "tp2",
+                "thumbnail": "/tRedx/red4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "182223",
+                "name": "tp3",
+                "thumbnail": "/tRedx/red5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "182224",
+                "name": "tp4",
+                "thumbnail": "/tRedx/red6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "182225",
+                "name": "tp5",
+                "thumbnail": "/tRedx/red7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "182226",
+                "name": "tp6",
+                "thumbnail": "/tRedx/red8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "182227",
+                "name": "tp7",
+                "thumbnail": "/tRedx/red9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "182228",
+                "name": "tp8",
+                "thumbnail": "/tRedx/red10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "182229",
+                "name": "tp9",
+                "thumbnail": "/tRedx/red11.svg",
+                "text": "Trang phục 9"
+            },
+            {
+                "id": "182230",
+                "name": "tp10",
+                "thumbnail": "/tRedx/red12.svg",
+                "text": "Trang phục 10"
+            },
+            {
+                "id": "182231",
+                "name": "tp11",
+                "thumbnail": "/tRedx/red13.svg",
+                "text": "Trang phục 11"
+            },
+            {
+                "id": "182232",
+                "name": "tp12",
+                "thumbnail": "/tRedx/red14.svg",
+                "text": "Trang phục 12"
+            }
+        ]
+    },
+    {
+        "id": "20000001",
+        "brand_id": "20",
+        "name": "YAME VN",
+        "thumbnail": "/yame/ya1.svg",
+        "text1": "YaMe là thường hiệu thời trang Việt Nam dành cho giới trẻ. YaMe mang ý nghĩa You are My everything ĐA DẠNG CÁC GU THỜI TRANG chính là phong cách hiện tại của YaMe.vn Đến với YaMe, sẽ đáp ứng mọi nhu cầu thời trang hàng ngày cho bạn:  ",
+        "title": "ĐI HỌC, ĐI CHƠI, ĐI LÀM, DU LỊCH, DẠO PHỐ, TIỆC TÙNG, THỂ THAO",
+        "image": "/yame/ya2.svg",
+        "text2": "YaMe.vn - Vẫn giữ những giá trị vốn có Không mãi chạy theo xu hướng, đánh mất mình. YaMe vẫn luôn giữ những giá trị đã xây đựng và phát triền bao lâu nay, những điểm nổi bật đã mang khách hàng đến với YaMe trong suốt thời gian qua",
+        "text3": "Hiện tại có tại: TP.HỒ CHÍ MINH YaMe & Kenshin Tea Q.Tân Phú: 189 Hòa Bình TÂY NAM BỘ YaMe & Kenshin Tea Sóc Trăng: 126 Tôn Đức Thắng ĐÔNG NAM BỘ YaMe & Kenshin Tea Vũng Tàu: 528 Trương Công",
+        "listdetail": [
+            {
+                "id": "2000002",
+                "name": "tp1",
+                "thumbnail": "/yame/ya3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "2000003",
+                "name": "tp2",
+                "thumbnail": "/yame/ya4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "2000004",
+                "name": "tp3",
+                "thumbnail": "/yame/ya5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "2000005",
+                "name": "tp4",
+                "thumbnail": "/yame/ya6.svg",
+                "text": "Trang phục 4"
+            },
+            {
+                "id": "2000006",
+                "name": "tp5",
+                "thumbnail": "/yame/ya7.svg",
+                "text": "Trang phục 5"
+            },
+            {
+                "id": "2000007",
+                "name": "tp6",
+                "thumbnail": "/yame/ya8.svg",
+                "text": "Trang phục 6"
+            },
+            {
+                "id": "2000008",
+                "name": "tp7",
+                "thumbnail": "/yame/ya9.svg",
+                "text": "Trang phục 7"
+            },
+            {
+                "id": "2000009",
+                "name": "tp8",
+                "thumbnail": "/yame/ya10.svg",
+                "text": "Trang phục 8"
+            },
+            {
+                "id": "2000010",
+                "name": "tp9",
+                "thumbnail": "/yame/ya11.svg",
+                "text": "Trang phục 9"
+            },
+            {
+                "id": "2000011",
+                "name": "tp10",
+                "thumbnail": "/yame/ya12.svg",
+                "text": "Trang phục 10"
+            },
+            {
+                "id": "2000012",
+                "name": "tp11",
+                "thumbnail": "/yame/ya13.svg",
+                "text": "Trang phục 11"
+            },
+            {
+                "id": "2000013",
+                "name": "tp12",
+                "thumbnail": "/yame/ya14.svg",
                 "text": "Trang phục 12"
             }
         ]

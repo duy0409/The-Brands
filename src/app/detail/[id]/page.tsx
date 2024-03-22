@@ -3,7 +3,7 @@ import React from "react"
 import Image from "next/image"
 import bgStyles from "../css/bgStyles.module.css";
 import bar from "../config/bar.json";
-import textStyles from "../css/textStyles.module.css"
+import textStyles from "../css/textStyles.module.css";
 import items from "../config/items.json";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
@@ -35,7 +35,7 @@ const Thek300 = ({ params }: { params: { id: string } }) => {
                     <div key={item.id} className={textStyles.name}>
                         {item.name}
                         <div className={textStyles.container}>
-                            <Image src={item.thumbnail} alt="logo" width={300} height={300} />
+                            <Image src={item.thumbnail} alt="logo" width={250} height={250} />
                             <div className={textStyles.text}>{item.text1}</div>
                             <div className={textStyles.title}>{item.title}</div>
                             <div className={textStyles.text}>{item.text2}</div>
@@ -48,7 +48,7 @@ const Thek300 = ({ params }: { params: { id: string } }) => {
                                     <div key={item1.id} className={textStyles.items}>
                                         <a href={`detail/${item.id}`}>
                                             <Image src={item1.thumbnail} alt="thek300" width={300} height={450} />
-                                            <a><br />{item1.text}<br /><a>________</a> </a>
+                                            <br />{item1.text}<br />________
                                         </a>
                                     </div>
                                 )

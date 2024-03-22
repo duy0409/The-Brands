@@ -13,18 +13,18 @@ const Header = () => {
             <nav className={headerStyles.nav}>
                 <ul className={headerStyles.menu}>
                     <li>
-                        <a className={headerStyles.item}>
-                            <a id={headerStyles.text}>Vietnamese Brands ᐯ</a>
+                        <div className={headerStyles.item}>
+                            <div id={headerStyles.text}>Vietnamese Brands ᐯ</div>
                             <div className={headerStyles.dropdown}>
                                 <a href="#" className={headerStyles.dropdownItem}></a>
                                 <a href="#" className={headerStyles.dropdownItem}>Yame.vn</a>
                                 <a href="/Thek300" className={headerStyles.dropdownItem}>THEK300</a>
                                 <a href="#" className={headerStyles.dropdownItem}>MENDE</a>
                             </div>
-                        </a>
+                        </div>
                     </li>
                     <li>
-                        <a className={headerStyles.item}>
+                        <div className={headerStyles.item}>
                             US UK Brands ᐯ
                             <div className={headerStyles.dropdown}>
                                 <a href="#" className={headerStyles.dropdownItem}></a>
@@ -32,16 +32,16 @@ const Header = () => {
                                 <a href="#" className={headerStyles.dropdownItem}>Stussy</a>
                                 <a href="#" className={headerStyles.dropdownItem}>Balenciaga</a>
                             </div>
-                        </a>
+                        </div>
                     </li>
                     <li>
-                        <a className={headerStyles.item}>
+                        <div className={headerStyles.item}>
                             Korean Brands ᐯ
                             <div className={headerStyles.dropdown}>
                                 <a href="#" className={headerStyles.dropdownItem}></a>
                                 <a href="#" className={headerStyles.dropdownItem}>ADLV</a>
                             </div>
-                        </a>
+                        </div>
                     </li>
                 </ul>
             </nav>

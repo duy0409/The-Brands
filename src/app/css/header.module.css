@@ -61,7 +61,7 @@
 }
 
 .dropdownItem:first-child {
-    height: 9px;
+    height: 0px;
     border-bottom: none;
 }
 
