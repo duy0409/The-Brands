@@ -33,7 +33,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/components/SearchBar.tsx",
-    ".next/types/app/testpage/page.tsx"
+    ".next/types/app/testpage/page.tsx",
+    "src/app/components/Carousel.jsx"
   ],
   "exclude": [
     "node_modules"

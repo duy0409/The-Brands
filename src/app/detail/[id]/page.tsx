@@ -10,7 +10,7 @@ import Footer from "../../components/footer";
 import bg from "../../css/Background.module.css";
 
 
-const Thek300 = ({ params }: { params: { id: string } }) => {
+const page = ({ params }: { params: { id: string } }) => {
     const data = items.filter(item => item.brand_id == params.id);
     console.log(data[0])
     return (
@@ -39,15 +39,15 @@ const Thek300 = ({ params }: { params: { id: string } }) => {
                             <div className={textStyles.text}>{item.text1}</div>
                             <div className={textStyles.title}>{item.title}</div>
                             <div className={textStyles.text}>{item.text2}</div>
-                            <div className={textStyles.image}><Image src={item.image} alt="thek300" width={400} height={400} /></div>
+                            <div className={textStyles.image}><Image src={item.image} alt="title" width={400} height={400} /></div>
                             <div className={textStyles.text}><div id={textStyles.text3}>{item.text3}</div></div>
                         </div>
                         <div>
                             <div className={textStyles.ContainerItem}>
                                 {item.listdetail.map(item1 => (
                                     <div key={item1.id} className={textStyles.items}>
-                                        <a href={`detail/${item.id}`}>
-                                            <Image src={item1.thumbnail} alt="thek300" width={300} height={450} />
+                                        <a href={`detail/${item1.id}`}>
+                                            <Image src={item1.thumbnail} alt="title" width={300} height={450} />
                                             <br />{item1.text}<br />________
                                         </a>
                                     </div>
@@ -62,5 +62,5 @@ const Thek300 = ({ params }: { params: { id: string } }) => {
         </div>
     );
 }
-export default Thek300;
+export default page;
 

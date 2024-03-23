@@ -3,8 +3,7 @@
         "id": 1,
         "name": "ADLV",
         "description": "adLv",
-        "thumbnail": "/brandLogo/adLv.png",
-        "link": "/page1/page.tsx"
+        "thumbnail": "/brandLogo/adLv.png"
     },
     {
         "id": 2,

@@ -10,12 +10,14 @@ import Footer from "../app/components/footer";
 import brands from "./config/brand.json";
 import News from "./config/news.json";
 // import Page from "./page1/page";
+import PageChild from "../app/detail/[id]/detail/[postID]/page"
 
 const Home = () => {
   return (
     <div className={bg.container}>
       <div className={bg.background}>
-        <Content />
+        {/* <Content /> */}
+        <PageChild />
         {/* <Page /> */}
       </div>
     </div >
