@@ -84,4 +84,14 @@
     margin-right: 10%;
 }
 
-@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 800px) {
+    .menu {
+        display: none;
+
+    }
+
+    .logo {
+        max-width: 200px;
+        margin-left: -20px;
+    }
+}

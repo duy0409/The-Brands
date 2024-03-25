@@ -46,13 +46,14 @@ const page = ({ params }: { params: { id: string } }) => {
                             <div className={textStyles.ContainerItem}>
                                 {item.listdetail.map(item1 => (
                                     <div key={item1.id} className={textStyles.items}>
-                                        <a href={`page/${item1.id}`}>
+                                        <a href={`item/${item1.id}`}>
                                             <Image src={item1.thumbnail} alt="title" width={300} height={450} />
                                             <br />{item1.text}<br />________
                                         </a>
                                     </div>
                                 )
-                                )}</div>
+                                )}
+                            </div>
                         </div>
                     </div>
                 )

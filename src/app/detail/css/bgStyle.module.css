@@ -1,7 +1,8 @@
 .bodyContent {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    gap: 10%;
+    justify-content: center;
 }
 
 .slider {

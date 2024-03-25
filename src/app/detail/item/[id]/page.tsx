@@ -1,12 +1,12 @@
 'use client'
 import Image from "next/image";
 import React from "react";
-import bar from "../detail/config/bar.json";
-import items from "../detail/config/itemsPage2.json";
-import bgStyles from ".././detail/css/bgStyle.module.css";
+import bar from "../../config/bar.json";
+import items from "../../item/config/itemsPage2.json";
+import bgStyles from "../../css/bgStyle.module.css";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
-import RandomLogo from "../components/RandomLogo";
+import RandomLogo from "../../../components/RandomLogo";
 
 const pageChild = ({ params }: { params: { id: string } }) => {
     const data = items.filter(item => item.listdetail_id == params.id);
@@ -15,7 +15,6 @@ const pageChild = ({ params }: { params: { id: string } }) => {
         <div className={bgStyles.containerPage2}>
             <div className={bgStyles.container}>
                 <Header />
-
                 {bar.map(item => (
                     <div key={item.id} className={bgStyles.slider}>
                         <a href={`/detail/${item.id}`}>
@@ -30,7 +29,7 @@ const pageChild = ({ params }: { params: { id: string } }) => {
                         </a>
                     </div>
                 ))}
-                {items.map(item => (
+                {data.map(item => (
                     <div key={item.listdetail_id} className={bgStyles.bodyContent}>
                         <div className={bgStyles.img}>
                             <Image
@@ -51,7 +50,7 @@ const pageChild = ({ params }: { params: { id: string } }) => {
                             <div className={bgStyles.image2}>
                                 <Image src={item.image2} alt="pageChild" width={400} height={500} />
                             </div>
-                            <div className={bgStyles.title1}>{item.title}</div>
+                            <div className={bgStyles.title1}>{item.title1}</div>
                             <div className={bgStyles.text1}>
                                 <a style={{ color: '#D0CCC6' }}>Quần: </a>
                                 <a href={item.link2}>{item.link2}</a>
@@ -66,15 +65,14 @@ const pageChild = ({ params }: { params: { id: string } }) => {
                             </div>
                             <div className={bgStyles.image4}>
                                 <Image src={item.image4} alt="pageChild" width={400} height={500} />
-
                             </div>
                         </div>
                     </div>
                 ))}
                 <br />
+                <RandomLogo />
+                <Footer />
             </div>
-            <RandomLogo />
-            <Footer />
         </div>
     );
 }

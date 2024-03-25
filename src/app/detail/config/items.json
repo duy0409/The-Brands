@@ -85,7 +85,7 @@
         ]
     },
     {
-        "id": "222222",
+        "id": "222221",
         "brand_id": "2",
         "name": "ATYS",
         "thumbnail": "/atLs/aty1.svg",
@@ -96,57 +96,33 @@
         "text3": "Thông tin liên hệ Địa chỉ: 46/5 Trần Quang Diệu, Phường 14, Quận 3, TP Hồ Chí Minh Điện thoại: 0877907867 Email tranthanhluong2413@gmail.com Fanpage: https://www.facebook.com/Atys.vn/ Instagram: https://www.instagram.com/atys.vn/ Shopee: Atys.vn",
         "listdetail": [
             {
-                "id": "222221",
+                "id": "222222",
                 "name": "tp1",
                 "thumbnail": "/atLs/aty3.svg",
                 "text": "Trang phục 1"
             },
             {
-                "id": "222222",
+                "id": "222223",
                 "name": "tp2",
                 "thumbnail": "/atLs/aty4.svg",
                 "text": "Trang phục 2"
             },
             {
-                "id": "222223",
+                "id": "222224",
                 "name": "tp3",
                 "thumbnail": "/atLs/aty5.svg",
                 "text": "Trang phục 3"
             },
             {
-                "id": "222224",
-                "name": "tp4",
-                "thumbnail": "/atLs/aty6.svg",
-                "text": "Trang phục 4"
-            },
-            {
                 "id": "222225",
-                "name": "tp5",
-                "thumbnail": "/atLs/aty7.svg",
-                "text": "Trang phục 5"
-            },
-            {
-                "id": "222226",
                 "name": "tp6",
                 "thumbnail": "/atLs/aty8.svg",
-                "text": "Trang phục 6"
-            },
-            {
-                "id": "222227",
-                "name": "tp7",
-                "thumbnail": "/atLs/aty9.svg",
-                "text": "Trang phục 7"
-            },
-            {
-                "id": "222228",
-                "name": "tp8",
-                "thumbnail": "/atLs/aty10.svg",
-                "text": "Trang phục 8"
+                "text": "Trang phục 4"
             }
         ]
     },
     {
-        "id": "444444",
+        "id": "444441",
         "brand_id": "4",
         "name": "DAVIES",
         "thumbnail": "/davies/davi1.svg",
@@ -157,75 +133,51 @@
         "text3": "Thông tin liên hệ Địa chỉ:  K46/60 Cao Thắng, Phường Thanh Bình, Quận Hải Châu, Thành phố Đà Nẵng SDT: 0899966116 Email: daviesbrand.vn@gmail.com Shopee: https://shopee.vn/davies.vn",
         "listdetail": [
             {
-                "id": "444441",
+                "id": "444442",
                 "name": "tp1",
                 "thumbnail": "/davies/d1.svg",
                 "text": "Trang phục 1"
             },
             {
-                "id": "444442",
+                "id": "444443",
                 "name": "tp2",
                 "thumbnail": "/davies/d2.svg",
                 "text": "Trang phục 2"
             },
             {
-                "id": "444443",
+                "id": "444444",
                 "name": "tp3",
                 "thumbnail": "/davies/d3.svg",
                 "text": "Trang phục 3"
             },
             {
-                "id": "444444",
+                "id": "444445",
                 "name": "tp4",
                 "thumbnail": "/davies/d4.svg",
                 "text": "Trang phục 4"
             },
             {
-                "id": "444445",
+                "id": "444446",
                 "name": "tp5",
                 "thumbnail": "/davies/d5.svg",
                 "text": "Trang phục 5"
             },
             {
-                "id": "444446",
+                "id": "444447",
                 "name": "tp6",
                 "thumbnail": "/davies/d6.svg",
                 "text": "Trang phục 6"
             },
             {
-                "id": "444447",
+                "id": "444448",
                 "name": "tp7",
                 "thumbnail": "/davies/d7.svg",
                 "text": "Trang phục 7"
             },
             {
-                "id": "444448",
-                "name": "tp8",
-                "thumbnail": "/davies/d8.svg",
-                "text": "Trang phục 8"
-            },
-            {
                 "id": "444449",
                 "name": "tp8",
-                "thumbnail": "/davies/d9.svg",
-                "text": "Trang phục 8"
-            },
-            {
-                "id": "444450",
-                "name": "tp8",
-                "thumbnail": "/davies/d10.svg",
-                "text": "Trang phục 8"
-            },
-            {
-                "id": "444451",
-                "name": "tp8",
-                "thumbnail": "/davies/d11.svg",
-                "text": "Trang phục 8"
-            },
-            {
-                "id": "444452",
-                "name": "tp8",
-                "thumbnail": "/davies/d12.svg",
+                "thumbnail": "/davies/d8.svg",
                 "text": "Trang phục 8"
             }
         ]

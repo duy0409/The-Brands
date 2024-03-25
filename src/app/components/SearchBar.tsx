@@ -4,12 +4,9 @@ import Image from 'next/image';
 
 const SearchBar = () => {
     const [searchTerm, setSearchTerm] = useState('');
-
     const handleSearch = () => {
-        // Xử lý logic tìm kiếm ở đây
         console.log('Searching for:', searchTerm);
     };
-
     return (
         <div className={styles.searchBar}>
             <input
@@ -25,5 +22,4 @@ const SearchBar = () => {
         </div>
     );
 };
-
 export default SearchBar;

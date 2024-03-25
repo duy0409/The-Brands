@@ -9,15 +9,13 @@ import Header from "../app/components/header";
 import Footer from "../app/components/footer";
 import brands from "./config/brand.json";
 import News from "./config/news.json";
-// import Page from "./page1/page";
-import PageChild from "./detail1/[id]"
 
 const Home = () => {
   return (
     <div className={bg.container}>
       <div className={bg.background}>
-        {/* <Content /> */}
-        <PageChild />
+        <Content />
+        {/* <PageChild /> */}
         {/* <Page /> */}
       </div>
     </div >
