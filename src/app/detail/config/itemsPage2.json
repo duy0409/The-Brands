@@ -1,10 +1,8 @@
 [
     {
         "id": "thek30001",
-        "id_page": "900002",
-        "image": "/FashionNews/bar.svg",
+        "listdetail_id": "900002",
         "image1": "/FashionNews/art1.svg",
-        "text": "Chi tiết sản phẩm",
         "title": "Fearless Flannel Shirt in Blue",
         "link1": "https://shp.ee/de5snva",
         "image2": "/FashionNews/ao.svg",
@@ -13,12 +11,6 @@
         "image3": "/FashionNews/quan.svg",
         "title2": "Nike Air Force 1",
         "link3": "https://shp.ee/qmujire",
-        "image4": "/FashionNews/giay.svg",
-        "suggestionList": [
-            {
-                "id": "thek30001",
-                "thumbnail": ""
-            }
-        ]
+        "image4": "/FashionNews/giay.svg"
     }
 ]

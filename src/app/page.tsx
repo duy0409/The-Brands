@@ -10,7 +10,7 @@ import Footer from "../app/components/footer";
 import brands from "./config/brand.json";
 import News from "./config/news.json";
 // import Page from "./page1/page";
-import PageChild from "../app/detail/[id]/detail/[postID]/page"
+import PageChild from "./detail1/[id]"
 
 const Home = () => {
   return (

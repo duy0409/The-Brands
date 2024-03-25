@@ -14,7 +14,7 @@ const page = ({ params }: { params: { id: string } }) => {
     const data = items.filter(item => item.brand_id == params.id);
     console.log(data[0])
     return (
-        <div className={bg.container}>
+        <div className={bg.containerPage1}>
             <div className={bgStyles.bg}>
                 <Header />
                 {bar.map(item => (
@@ -46,7 +46,7 @@ const page = ({ params }: { params: { id: string } }) => {
                             <div className={textStyles.ContainerItem}>
                                 {item.listdetail.map(item1 => (
                                     <div key={item1.id} className={textStyles.items}>
-                                        <a href={`detail/${item1.id}`}>
+                                        <a href={`page/${item1.id}`}>
                                             <Image src={item1.thumbnail} alt="title" width={300} height={450} />
                                             <br />{item1.text}<br />________
                                         </a>

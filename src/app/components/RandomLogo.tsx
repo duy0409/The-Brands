@@ -18,18 +18,20 @@ const Ran = () => {
     const randomData = randomIndexes.map(index => brands[index]);
 
     return (
-        <div>
-            <a className={RLogo.title}>Gợi ý thương hiệu<br />_________</a>
-            <ul>
-                {randomData.map(item => (
-                    <div key={item.id}>
-                        <a href={`detail/${item.id}`}>
-                            {item.thumbnail && <Image src={item.thumbnail} alt="title" width={150} height={150} />}
+        <div className={RLogo.container}>
+            <div>
+                <div className={RLogo.title}>Gợi ý thương hiệu<br />_________</div>
+                <div className={RLogo.brandsLogo}>
+                    {randomData.map(item => (
+                        <div key={item.id}>
+                            <a href={`detail/${item.id}`}>
+                                {item.thumbnail && <Image src={item.thumbnail} alt="title" width={200} height={200} />}
 
-                        </a>
-                    </div>
-                ))}
-            </ul>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 };

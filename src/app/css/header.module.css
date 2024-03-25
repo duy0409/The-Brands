@@ -15,7 +15,7 @@
     display: flex;
     gap: 20px;
     list-style-type: none;
-    margin: 0;
+    margin-top: -10px;
 }
 
 .item {
@@ -61,7 +61,7 @@
 }
 
 .dropdownItem:first-child {
-    height: 0px;
+    height: 16px;
     border-bottom: none;
 }
 
