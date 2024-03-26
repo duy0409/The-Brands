@@ -1,8 +1,12 @@
 // pages/_app.js
 import '../app/css/Background.module.css';
-
-function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+import './css/ButtonMobile.module.css'
+import Navabar from './components/ButtonMenu'
+function App() {
+    return (
+        <div className="App">
+            <Navabar />
+        </div>
+    );
 }
-
-export default MyApp;
+export default App;

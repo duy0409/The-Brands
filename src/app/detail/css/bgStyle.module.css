@@ -66,3 +66,105 @@
     color: #D0CCC6;
     padding-bottom: 20px;
 }
+
+.textDetail {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .slider {
+        display: none;
+    }
+
+    .bodyContent {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content {
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .textDetail {
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        color: #D0CCC6;
+        padding-bottom: 20px;
+        margin-bottom: -10px;
+
+    }
+
+    .text {
+        display: none;
+    }
+
+    .title1 {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        color: #D0CCC6;
+    }
+
+    .title2 {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        color: #D0CCC6;
+    }
+
+    .title {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        color: #D0CCC6;
+    }
+
+    .text1 a {
+        font-size: 12px;
+        color: #D0CCC6;
+        padding-bottom: 20px;
+        text-decoration: none;
+    }
+
+    .text1 a:hover {
+        color: rgb(173, 56, 14);
+    }
+
+    .img {
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+
+    }
+
+    .image2,
+    .image3,
+    .image4 {
+        width: auto;
+        height: auto;
+        margin-right: 0;
+        margin-left: 0;
+        max-width: 100%;
+    }
+}

@@ -21,3 +21,16 @@
   align-items: center;
 
 }
+
+@media only screen and (max-width: 800px) {
+  .slider {
+    display: none;
+  }
+
+  .bodyContent {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

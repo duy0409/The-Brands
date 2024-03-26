@@ -1,12 +1,13 @@
 'use client'
 import Image from "next/image";
 import React from "react";
-import bar from "../../config/bar.json";
 import items from "../../item/config/itemsPage2.json";
 import bgStyles from "../../css/bgStyle.module.css";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import RandomLogo from "../../../components/RandomLogo";
+import BMenu from "../../../components/ButtonMenu";
+import FMobile from "../../../components/footerMobile";
 
 const pageChild = ({ params }: { params: { id: string } }) => {
     const data = items.filter(item => item.listdetail_id == params.id);
@@ -14,23 +15,23 @@ const pageChild = ({ params }: { params: { id: string } }) => {
     return (
         <div className={bgStyles.containerPage2}>
             <div className={bgStyles.container}>
-                <Header />
-                {bar.map(item => (
-                    <div key={item.id} className={bgStyles.slider}>
-                        <a href={`/detail/${item.id}`}>
-                            <Image
-                                src={item.thumbnail}
-                                alt={item.description}
-                                width={1728}
-                                height={200}
-                                layout="responsive"
-                                objectFit="cover"
-                            />
-                        </a>
-                    </div>
-                ))}
+                <Header /><BMenu />
+
+                <div className={bgStyles.slider}>
+                    <a>
+                        <Image
+                            src="/FashionNews/bar.svg"
+                            alt="bar"
+                            width={1728}
+                            height={200}
+                            layout="responsive"
+                            objectFit="cover"
+                        />
+                    </a>
+                </div>
                 {data.map(item => (
                     <div key={item.listdetail_id} className={bgStyles.bodyContent}>
+                        <a className={bgStyles.textDetail}>Chi tiết sản phẩm</a>
                         <div className={bgStyles.img}>
                             <Image
                                 src={item.image1}
@@ -71,9 +72,9 @@ const pageChild = ({ params }: { params: { id: string } }) => {
                 ))}
                 <br />
                 <RandomLogo />
-                <Footer />
+                <Footer /><FMobile />
             </div>
-        </div>
+        </div >
     );
 }
 

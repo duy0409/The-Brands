@@ -1,0 +1,51 @@
+.footer {
+    display: none;
+
+    @media only screen and (max-width: 1000px) {
+        color: #C0BAB2;
+        display: block;
+    }
+}
+
+
+.line {
+    background-color: #C0BAB2;
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#logo1 {
+    text-align: center;
+}
+
+#text2 {
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.information {
+
+    display: flex;
+
+}
+
+.group {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.groupChild {
+    margin-left: 60px;
+}
+
+#icons {
+    margin-right: 10px;
+}
+
+#info {
+    margin-left: 10px;
+    font-size: 12px;
+}

@@ -24,7 +24,8 @@ const Ran = () => {
                 <div className={RLogo.brandsLogo}>
                     {randomData.map(item => (
                         <div key={item.id}>
-                            <a href={`detail/${item.id}`}>
+                            <a href={`detail/detail/${item.id}`.substring(6)}>
+
                                 {item.thumbnail && <Image src={item.thumbnail} alt="title" width={200} height={200} />}
 
                             </a>

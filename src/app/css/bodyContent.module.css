@@ -10,6 +10,7 @@
     position: absolute;
     overflow-x: hidden;
     overflow-y: hidden;
+
 }
 
 .All_logo {
@@ -27,30 +28,7 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 800px) {
-    .bodyContainer .gallery {
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 20px;
 
-    }
-
-    .news {
-        color: #C0BAB2;
-        text-align: center;
-        width: 75%;
-        height: 75%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(41, 36, 30);
-        justify-content: center;
-        padding-top: 0px;
-        display: block;
-        grid-template-columns: auto;
-        gap: 0px;
-    }
-
-}
 
 /* Logo content */
 .gallery {
@@ -61,6 +39,7 @@
     justify-content: center;
     padding-bottom: 60px;
     padding-left: 45px;
+
 }
 
 .imageContainer {
@@ -68,6 +47,8 @@
     margin-right: auto;
     position: relative;
     display: flex;
+
+
 }
 
 .imageWrapper {
@@ -75,6 +56,7 @@
     padding-right: 40px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .overlay {
@@ -91,6 +73,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+
 }
 
 .imageWrapper:hover .overlay {
@@ -116,6 +99,12 @@
     margin-left: auto;
     margin-right: auto;
 
+    @media only screen and (max-width: 1000px) {
+        display: block;
+        width: 85%;
+        height: 85%;
+    }
+
 }
 
 .textNews {
@@ -129,6 +118,13 @@
     margin-right: auto;
     background-color: rgb(41, 36, 30);
     margin-bottom: 0%;
+
+    @media only screen and (max-width: 1000px) {
+        display: block;
+        width: 85%;
+        height: 85%;
+        text-align: center;
+    }
 
 }
 
@@ -149,13 +145,18 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 0px;
+
+    @media only screen and (max-width: 1000px) {
+        display: block;
+        width: 85%;
+        height: 85%;
+    }
 }
 
 
 .containerNews {
     display: block;
     padding: auto;
-
 }
 
 .containerNews a {
@@ -185,4 +186,44 @@
 
 #text:hover {
     color: aliceblue;
+}
+
+/* Mobile */
+@media only screen and (max-width: 1000px) {
+    .bodyContainer .gallery {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .imageWrapper .imgLogo {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 2.2%;
+        left: 0;
+        width: 72.5%;
+        height: 0;
+        color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        transition: height 0.3s ease, opacity 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .imageWrapper:hover .overlay {
+        height: 60%;
+        opacity: 1;
+    }
+
 }
