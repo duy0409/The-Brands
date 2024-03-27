@@ -44,12 +44,13 @@ const page = ({ params }: { params: { id: string } }) => {
                             <div className={textStyles.text}><div id={textStyles.text3}>{item.text3}</div></div>
                         </div>
                         <div>
+
                             <div className={textStyles.ContainerItem}>
                                 {item.listdetail.map(item1 => (
                                     <div key={item1.id} className={textStyles.items}>
                                         <a href={`item/${item1.id}`}>
                                             <Image className={textStyles.imageItems} src={item1.thumbnail} alt="title" width={300} height={450} />
-                                            <br />{item1.text}<br />________
+                                            <br /><br />{item1.text}<br />________
                                         </a>
                                     </div>
                                 )

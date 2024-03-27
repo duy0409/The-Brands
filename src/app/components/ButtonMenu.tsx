@@ -45,7 +45,7 @@ const BurgerMenu = () => {
                         <ul className={headerStyles.mobileMenu}>
                             <li>
                                 <div className={headerStyles.item} onClick={toggleVietnameseBrands}>
-                                    ᐯ Vietnamese Brands
+                                    Vietnamese Brands
                                     <div className={`${headerStyles.dropdown} ${vietnameseBrandsOpen ? headerStyles.open : ''}`}>
                                         <a href="/detail/20" className={headerStyles.dropdownItem}>Yame.vn</a>
                                         <a href="/detail/9" className={headerStyles.dropdownItem}>THEK300</a>
@@ -55,7 +55,7 @@ const BurgerMenu = () => {
                             </li>
                             <li>
                                 <div className={headerStyles.item} onClick={toggleUsUkBrands}>
-                                    ᐯ US UK Brands
+                                    US UK Brands
                                     <div className={`${headerStyles.dropdown} ${usUkBrandsOpen ? headerStyles.open : ''}`}>
 
                                         <a href="/detail/7" className={headerStyles.dropdownItem}>Fear Of God</a>
@@ -66,7 +66,7 @@ const BurgerMenu = () => {
                             </li>
                             <li>
                                 <div className={headerStyles.item} onClick={toggleKoreanBrands}>
-                                    ᐯ Korean Brands
+                                    Korean Brands
                                     <div className={`${headerStyles.dropdown} ${koreanBrandsOpen ? headerStyles.open : ''}`}>
 
                                         <a href="/detail/1" className={headerStyles.dropdownItem}>ADLV</a>

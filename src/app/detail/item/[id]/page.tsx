@@ -46,26 +46,26 @@ const pageChild = ({ params }: { params: { id: string } }) => {
                             <div className={bgStyles.title}>{item.title} </div>
                             <div className={bgStyles.text1}>
                                 <a style={{ color: '#D0CCC6' }}>Áo: </a>
-                                <a href={item.link1}>{item.link1}</a>
+                                <a className={bgStyles.textLink} href={item.link1}>Mua ngay </a>
                             </div>
                             <div className={bgStyles.image2}>
-                                <Image src={item.image2} alt="pageChild" width={400} height={500} />
+                                <a href={item.link1}><Image src={item.image2} alt="pageChild" width={400} height={500} /></a>
                             </div>
-                            <div className={bgStyles.title1}>{item.title1}</div>
+                            <div className={bgStyles.title}>{item.title1}</div>
                             <div className={bgStyles.text1}>
                                 <a style={{ color: '#D0CCC6' }}>Quần: </a>
-                                <a href={item.link2}>{item.link2}</a>
+                                <a className={bgStyles.textLink} href={item.link2}>Mua ngay</a>
                             </div>
                             <div className={bgStyles.image3}>
-                                <Image src={item.image3} alt="pageChild" width={400} height={500} />
+                                <a href={item.link2}><Image src={item.image3} alt="pageChild" width={400} height={500} /></a>
                             </div>
                             <div className={bgStyles.title}>{item.title2}</div>
                             <div className={bgStyles.text1}>
                                 <a style={{ color: '#D0CCC6' }}>Giày: </a>
-                                <a href={item.link3}>{item.link3}</a>
+                                <a className={bgStyles.textLink} href={item.link3}>Mua ngay </a>
                             </div>
                             <div className={bgStyles.image4}>
-                                <Image src={item.image4} alt="pageChild" width={400} height={500} />
+                                <a href={item.link3}><Image src={item.image4} alt="pageChild" width={400} height={500} /></a>
                             </div>
                         </div>
                     </div>

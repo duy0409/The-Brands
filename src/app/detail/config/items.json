@@ -1,6 +1,6 @@
 [
     {
-        "id": "111111",
+        "id": "333331",
         "brand_id": "1",
         "name": "ADLV",
         "thumbnail": "/adLv/body1.svg",
@@ -17,70 +17,46 @@
                 "text": "Trang phục 1"
             },
             {
-                "id": "111113",
-                "name": "tp2",
-                "thumbnail": "/adLv/a2.svg",
-                "text": "Trang phục 2"
-            },
-            {
                 "id": "111114",
                 "name": "tp3",
                 "thumbnail": "/adLv/a3.svg",
-                "text": "Trang phục 3"
+                "text": "Trang phục 2"
             },
             {
                 "id": "111115",
                 "name": "tp4",
                 "thumbnail": "/adLv/a4.svg",
-                "text": "Trang phục 4"
+                "text": "Trang phục 3"
             },
             {
                 "id": "111116",
                 "name": "tp5",
                 "thumbnail": "/adLv/a5.svg",
-                "text": "Trang phục 5"
-            },
-            {
-                "id": "111117",
-                "name": "tp6",
-                "thumbnail": "/adLv/a6.svg",
-                "text": "Trang phục 6"
+                "text": "Trang phục 4"
             },
             {
                 "id": "111118",
                 "name": "tp7",
                 "thumbnail": "/adLv/a7.svg",
-                "text": "Trang phục 7"
+                "text": "Trang phục 5"
             },
             {
                 "id": "111119",
                 "name": "tp8",
                 "thumbnail": "/adLv/a8.svg",
-                "text": "Trang phục 8"
+                "text": "Trang phục 6"
             },
             {
                 "id": "111120",
                 "name": "tp9",
-                "thumbnail": "/adLv/a9.svg",
-                "text": "Trang phục 9"
-            },
-            {
-                "id": "111121",
-                "name": "tp10",
-                "thumbnail": "/adLv/a10.svg",
-                "text": "Trang phục 10"
+                "thumbnail": "/adLv/a6.svg",
+                "text": "Trang phục 7"
             },
             {
                 "id": "111122",
                 "name": "tp11",
                 "thumbnail": "/adLv/a11.svg",
-                "text": "Trang phục 11"
-            },
-            {
-                "id": "111123",
-                "name": "tp12",
-                "thumbnail": "/adLv/a12.svg",
-                "text": "Trang phục 12"
+                "text": "Trang phục 8"
             }
         ]
     },
@@ -117,6 +93,43 @@
                 "id": "222225",
                 "name": "tp6",
                 "thumbnail": "/atLs/aty8.svg",
+                "text": "Trang phục 4"
+            }
+        ]
+    },
+    {
+        "id": "333333",
+        "brand_id": "3",
+        "name": "BALENCIAGA",
+        "thumbnail": "/balen/bl1.svg",
+        "text1": "Balenciaga, một trong những thương hiệu thời trang hàng đầu thế giới, đã từng bước thống trị làng mốt với sự sáng tạo và phong cách độc đáo của mình. Được thành lập bởi nhà thiết kế Cristóbal Balenciaga ở Tây Ban Nha vào những năm 1919, Balenciaga đã trở thành biểu tượng của sự tinh tế và sự hiện đại trong thế giới thời trang. ",
+        "title": "",
+        "image": "/balen/bl2.svg",
+        "text2": "Với sự kết hợp giữa sự độc đáo và sự sang trọng, các thiết kế của Balenciaga luôn thể hiện sức mạnh và cá tính riêng biệt. Từ những chiếc váy cổ điển đến những bộ trang phục hiện đại và phá cách, Balenciaga không ngừng làm mới và thách thức ngành công nghiệp thời trang với tầm ảnh hưởng to lớn và phản ánh rõ ràng tinh thần sáng tạo của mình.",
+        "text3": "",
+        "listdetail": [
+            {
+                "id": "333332",
+                "name": "tp1",
+                "thumbnail": "/balen/bl3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "333333",
+                "name": "tp3",
+                "thumbnail": "/balen/bl4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "333334",
+                "name": "tp4",
+                "thumbnail": "/balen/bl5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "333335",
+                "name": "tp5",
+                "thumbnail": "/balen/bl6.svg",
                 "text": "Trang phục 4"
             }
         ]
@@ -399,30 +412,6 @@
                 "name": "tp8",
                 "thumbnail": "/goldie/go10.svg",
                 "text": "Trang phục 8"
-            },
-            {
-                "id": "800010",
-                "name": "tp9",
-                "thumbnail": "/goldie/go11.svg",
-                "text": "Trang phục 9"
-            },
-            {
-                "id": "800011",
-                "name": "tp10",
-                "thumbnail": "/goldie/go12.svg",
-                "text": "Trang phục 10"
-            },
-            {
-                "id": "800012",
-                "name": "tp11",
-                "thumbnail": "/goldie/go13.svg",
-                "text": "Trang phục 11"
-            },
-            {
-                "id": "800013",
-                "name": "tp12",
-                "thumbnail": "/goldie/go14.svg",
-                "text": "Trang phục 12"
             }
         ]
     },
@@ -484,30 +473,6 @@
                 "name": "tp8",
                 "thumbnail": "/k300/k10.svg",
                 "text": "Trang phục 8"
-            },
-            {
-                "id": "900010",
-                "name": "tp9",
-                "thumbnail": "/k300/k11.svg",
-                "text": "Trang phục 9"
-            },
-            {
-                "id": "900011",
-                "name": "tp10",
-                "thumbnail": "/k300/k12.svg",
-                "text": "Trang phục 10"
-            },
-            {
-                "id": "900012",
-                "name": "tp11",
-                "thumbnail": "/k300/k13.svg",
-                "text": "Trang phục 11"
-            },
-            {
-                "id": "900013",
-                "name": "tp12",
-                "thumbnail": "/k300/k14.svg",
-                "text": "Trang phục 12"
             }
         ]
     },
@@ -569,30 +534,6 @@
                 "name": "tp8",
                 "thumbnail": "/kiaat/ki10.svg",
                 "text": "Trang phục 8"
-            },
-            {
-                "id": "100010",
-                "name": "tp9",
-                "thumbnail": "/kiaat/ki11.svg",
-                "text": "Trang phục 9"
-            },
-            {
-                "id": "100011",
-                "name": "tp10",
-                "thumbnail": "/kiaat/ki12.svg",
-                "text": "Trang phục 10"
-            },
-            {
-                "id": "100012",
-                "name": "tp11",
-                "thumbnail": "/kiaat/ki13.svg",
-                "text": "Trang phục 11"
-            },
-            {
-                "id": "100013",
-                "name": "tp12",
-                "thumbnail": "/kiaat/ki14.svg",
-                "text": "Trang phục 12"
             }
         ]
     },
@@ -642,18 +583,6 @@
                 "name": "tp6",
                 "thumbnail": "/leninn/le8.svg",
                 "text": "Trang phục 6"
-            },
-            {
-                "id": "1011019",
-                "name": "tp9",
-                "thumbnail": "/leninn/le9.svg",
-                "text": "Trang phục 7"
-            },
-            {
-                "id": "10110110",
-                "name": "tp10",
-                "thumbnail": "/leninn/le10.svg",
-                "text": "Trang phục 8"
             }
         ]
     },
@@ -752,30 +681,6 @@
                 "name": "tp8",
                 "thumbnail": "/levents/lv10.svg",
                 "text": "Trang phục 8"
-            },
-            {
-                "id": "1212129",
-                "name": "tp9",
-                "thumbnail": "/levents/lv11.svg",
-                "text": "Trang phục 9"
-            },
-            {
-                "id": "12121210",
-                "name": "tp10",
-                "thumbnail": "/levents/lv12.svg",
-                "text": "Trang phục 10"
-            },
-            {
-                "id": "12121211",
-                "name": "tp10",
-                "thumbnail": "/levents/lv13.svg",
-                "text": "Trang phục 11"
-            },
-            {
-                "id": "12121212",
-                "name": "tp10",
-                "thumbnail": "/levents/lv14.svg",
-                "text": "Trang phục 12"
             }
         ]
     },
@@ -888,16 +793,90 @@
                 "text": "Trang phục 6"
             },
             {
-                "id": "150007",
+                "id": "150008",
                 "name": "tp6",
                 "thumbnail": "/outerity/out9.svg",
                 "text": "Trang phục 7"
             },
             {
-                "id": "150007",
+                "id": "150009",
                 "name": "tp6",
                 "thumbnail": "/outerity/out10.svg",
                 "text": "Trang phục 8"
+            }
+        ]
+    },
+    {
+        "id": "160001",
+        "brand_id": "16",
+        "name": "STUSSY",
+        "thumbnail": "/stussy/stu1.svg",
+        "text1": "Stussy, một thương hiệu thời trang đường phố nổi tiếng, đã trở thành biểu tượng của văn hóa hip-hop và skateboarding từ những năm 1980. Được thành lập bởi Shawn Stussy ở California, Mỹ, Stussy nhanh chóng thu hút sự chú ý với logo chữ 'S' phong cách và các thiết kế độc đáo.",
+        "title": "STUSSY BRAND",
+        "image": "/stussy/stu2.svg",
+        "text2": "Kết hợp giữa phong cách thể thao và streetwear, Stussy đã tạo ra những bộ sưu tập phong phú từ áo thun đến áo hoodie và các phụ kiện, mang đến cho người mặc sự thoải mái và phong cách đặc trưng của văn hóa đường phố. Đến ngày nay, Stussy vẫn tiếp tục là một trong những thương hiệu hàng đầu trong cộng đồng thời trang đường phố toàn cầu.",
+        "text3": "",
+        "listdetail": [
+            {
+                "id": "160002",
+                "name": "tp1",
+                "thumbnail": "/stussy/stu3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "160003",
+                "name": "tp2",
+                "thumbnail": "/stussy/stu4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "160004",
+                "name": "tp3",
+                "thumbnail": "/stussy/stu5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "160005",
+                "name": "tp4",
+                "thumbnail": "/stussy/stu6.svg",
+                "text": "Trang phục 4"
+            }
+        ]
+    },
+    {
+        "id": "177771",
+        "brand_id": "17",
+        "name": "THE NORTH FACE",
+        "thumbnail": "/tnf/tnf1.svg",
+        "text1": "The North Face, một trong những thương hiệu thể thao hàng đầu trên thế giới, nổi tiếng với việc sản xuất các sản phẩm chất lượng cao dành cho các hoạt động ngoàitrời. Được thành lập vào năm 1966 tại San Francisco, California, Mỹ, The North Face đã nhanh chóng trở thành biểu tượng của sự mạnh mẽ, chịu khó và khám phá. ",
+        "title": "",
+        "image": "/tnf/tnf2.svg",
+        "text2": "Với các sản phẩm như áo khoác, túi ngủ, ba lô và giày dép, thương hiệu này không chỉ nổi tiếng với chất lượng vượt trội mà còn với thiết kế độc đáo và tính năng chuyên biệt giúp người mặc và người dùng tự tin khám phá môi trường tự nhiên. The North Face không chỉ là một thương hiệu thể thao, mà còn là biểu tượng của tinh thần phiêu lưu và sự khao khát khám phá.",
+        "text3": "",
+        "listdetail": [
+            {
+                "id": "177772",
+                "name": "tp1",
+                "thumbnail": "/tnf/tnf3.svg",
+                "text": "Trang phục 1"
+            },
+            {
+                "id": "177773",
+                "name": "tp2",
+                "thumbnail": "/tnf/tnf4.svg",
+                "text": "Trang phục 2"
+            },
+            {
+                "id": "177774",
+                "name": "tp3",
+                "thumbnail": "/tnf/tnf5.svg",
+                "text": "Trang phục 3"
+            },
+            {
+                "id": "177775",
+                "name": "tp4",
+                "thumbnail": "/tnf/tnf6.svg",
+                "text": "Trang phục 4"
             }
         ]
     },
@@ -959,30 +938,43 @@
                 "name": "tp8",
                 "thumbnail": "/tRedx/red10.svg",
                 "text": "Trang phục 8"
+            }
+        ]
+    },
+    {
+        "id": "199991",
+        "brand_id": "19",
+        "name": "VANS",
+        "thumbnail": "/van/van1.svg",
+        "text1": "Vans, một thương hiệu giày dép và thời trang đường phố, đã trở thành biểu tượng của văn hóa skateboarding và người yêu thể thao từ những năm 1960. Được thành lập bởi Paul Van Doren ở California, Mỹ, Vans nổi tiếng với các thiết kế giày độc đáo và phong cách, đặc biệt là dòng giày Slip-On và Authentic.",
+        "title": "",
+        "image": "/van/van2.svg",
+        "text2": "Với chất liệu bền bỉ và thiết kế thoải mái, giày Vans đã trở thành lựa chọn ưa thích của cả vận động viên và những người yêu thích phong cách đường phố. Ngoài giày dép, Vans cũng sản xuất các sản phẩm thời trang khác như áo thun, áo khoác và ba lô, phản ánh tinh thần tự do và sáng tạo của cộng đồng skater và văn hóa đường phố.",
+        "text3": "",
+        "listdetail": [
+            {
+                "id": "199992",
+                "name": "tp1",
+                "thumbnail": "/van/van3.svg",
+                "text": "Trang phục 1"
             },
             {
-                "id": "182229",
-                "name": "tp9",
-                "thumbnail": "/tRedx/red11.svg",
-                "text": "Trang phục 9"
+                "id": "199993",
+                "name": "tp2",
+                "thumbnail": "/van/van4.svg",
+                "text": "Trang phục 2"
             },
             {
-                "id": "182230",
-                "name": "tp10",
-                "thumbnail": "/tRedx/red12.svg",
-                "text": "Trang phục 10"
+                "id": "199994",
+                "name": "tp3",
+                "thumbnail": "/van/van5.svg",
+                "text": "Trang phục 3"
             },
             {
-                "id": "182231",
-                "name": "tp11",
-                "thumbnail": "/tRedx/red13.svg",
-                "text": "Trang phục 11"
-            },
-            {
-                "id": "182232",
-                "name": "tp12",
-                "thumbnail": "/tRedx/red14.svg",
-                "text": "Trang phục 12"
+                "id": "199995",
+                "name": "tp4",
+                "thumbnail": "/van/van6.svg",
+                "text": "Trang phục 4"
             }
         ]
     },
@@ -1044,30 +1036,6 @@
                 "name": "tp8",
                 "thumbnail": "/yame/ya10.svg",
                 "text": "Trang phục 8"
-            },
-            {
-                "id": "2000010",
-                "name": "tp9",
-                "thumbnail": "/yame/ya11.svg",
-                "text": "Trang phục 9"
-            },
-            {
-                "id": "2000011",
-                "name": "tp10",
-                "thumbnail": "/yame/ya12.svg",
-                "text": "Trang phục 10"
-            },
-            {
-                "id": "2000012",
-                "name": "tp11",
-                "thumbnail": "/yame/ya13.svg",
-                "text": "Trang phục 11"
-            },
-            {
-                "id": "2000013",
-                "name": "tp12",
-                "thumbnail": "/yame/ya14.svg",
-                "text": "Trang phục 12"
             }
         ]
     }
