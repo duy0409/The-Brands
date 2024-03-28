@@ -8,6 +8,7 @@ import Footer from "@/app/components/footer";
 import RandomLogo from "../../../components/RandomLogo";
 import BMenu from "../../../components/ButtonMenu";
 import FMobile from "../../../components/footerMobile";
+import Link from "next/link";
 
 const pageChild = ({ params }: { params: { id: string } }) => {
     const data = items.filter(item => item.listdetail_id == params.id);
@@ -46,26 +47,26 @@ const pageChild = ({ params }: { params: { id: string } }) => {
                             <div className={bgStyles.title}>{item.title} </div>
                             <div className={bgStyles.text1}>
                                 <a style={{ color: '#D0CCC6' }}>Áo: </a>
-                                <a className={bgStyles.textLink} href={item.link1}>Mua ngay </a>
+                                <Link className={bgStyles.textLink} href={item.link1}>Mua ngay </Link>
                             </div>
                             <div className={bgStyles.image2}>
-                                <a href={item.link1}><Image src={item.image2} alt="pageChild" width={400} height={500} /></a>
+                                <Link href={item.link1}><Image src={item.image2} alt="pageChild" width={400} height={500} /></Link>
                             </div>
                             <div className={bgStyles.title}>{item.title1}</div>
                             <div className={bgStyles.text1}>
                                 <a style={{ color: '#D0CCC6' }}>Quần: </a>
-                                <a className={bgStyles.textLink} href={item.link2}>Mua ngay</a>
+                                <Link className={bgStyles.textLink} href={item.link2}>Mua ngay</Link>
                             </div>
                             <div className={bgStyles.image3}>
-                                <a href={item.link2}><Image src={item.image3} alt="pageChild" width={400} height={500} /></a>
+                                <Link href={item.link2}><Image src={item.image3} alt="pageChild" width={400} height={500} /></Link>
                             </div>
                             <div className={bgStyles.title}>{item.title2}</div>
                             <div className={bgStyles.text1}>
                                 <a style={{ color: '#D0CCC6' }}>Giày: </a>
-                                <a className={bgStyles.textLink} href={item.link3}>Mua ngay </a>
+                                <Link className={bgStyles.textLink} href={item.link3}>Mua ngay </Link>
                             </div>
                             <div className={bgStyles.image4}>
-                                <a href={item.link3}><Image src={item.image4} alt="pageChild" width={400} height={500} /></a>
+                                <Link href={item.link3}><Image src={item.image4} alt="pageChild" width={400} height={500} /></Link>
                             </div>
                         </div>
                     </div>

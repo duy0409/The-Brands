@@ -2,6 +2,7 @@ import React from 'react';
 import brands from "../config/brand.json";
 import Image from 'next/image';
 import RLogo from "../css/RandomLogo.module.css";
+import Link from 'next/link';
 
 const Ran = () => {
     const getRandomIndexes = () => {
@@ -24,11 +25,11 @@ const Ran = () => {
                 <div className={RLogo.brandsLogo}>
                     {randomData.map(item => (
                         <div key={item.id}>
-                            <a href={`detail/detail/${item.id}`.substring(6)}>
+                            <Link href={`detail/detail/${item.id}`.substring(6)}>
 
                                 {item.thumbnail && <Image src={item.thumbnail} alt="title" width={200} height={200} />}
 
-                            </a>
+                            </Link>
                         </div>
                     ))}
                 </div>

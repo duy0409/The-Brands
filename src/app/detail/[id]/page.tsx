@@ -9,6 +9,7 @@ import Footer from "../../components/footer";
 import bg from "../../css/Background.module.css";
 import BMenu from "../../components/ButtonMenu";
 import FMobile from "../../components/footerMobile";
+import Link from "next/link";
 
 
 const page = ({ params }: { params: { id: string } }) => {
@@ -48,10 +49,10 @@ const page = ({ params }: { params: { id: string } }) => {
                             <div className={textStyles.ContainerItem}>
                                 {item.listdetail.map(item1 => (
                                     <div key={item1.id} className={textStyles.items}>
-                                        <a href={`item/${item1.id}`}>
+                                        <Link href={`item/${item1.id}`}>
                                             <Image className={textStyles.imageItems} src={item1.thumbnail} alt="title" width={300} height={450} />
                                             <br /><br />{item1.text}<br />________
-                                        </a>
+                                        </Link>
                                     </div>
                                 )
                                 )}

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import footerStyles from "../css/footer.module.css";
+import Link from "next/link";
 {/* npm install react-icons | https://www.npmjs.com/package/react-icons*/ }
 import { FaFacebook, FaTiktok, FaYoutube } from 'react-icons/fa';
 
@@ -10,25 +11,32 @@ const Footer = () => {
             <div className={footerStyles.group1}>
                 <div className={footerStyles.group_child1}>
                     <div id={footerStyles.logo1}><Image src="/FashionNews/logo.svg" width={182} height={38} alt="Logo" /><br />
-                        Trang thông tin đăng tải hỗ trợ cho các thương hiệu
-                        <br />thời trang tại Việt Nam. Mọi thông tin yêu cầu hỗ trợ xin liên hệ
-                        <br />về cho bộ phận hỗ trợ nguyentanchieu2002@gmail.com.</div>
+                        Trang thông tin đăng tải hỗ trợ cho các thương hiệu thời trang tại Việt Nam. Mọi thông tin yêu cầu hỗ trợ xin liên hệ về cho bộ phận hỗ trợ nguyentanchieu2002@gmail.com.
+                    </div><br />
+                    <div className={footerStyles.lableText}>
+                        <a id={footerStyles.lable}>CÔNG TY TNHH AYDEN TECHCO</a><br />
+                        <a id={footerStyles.dateText}>Cấp ngày 21/04/2024</a></div>
                 </div>
-                <div className={footerStyles.group_child2}>
-                    <p id={footerStyles.text1}>Theo dõi tại<br /></p>
 
-                    <div className={footerStyles.GroupIcons}>
-                        <a href="https://www.facebook.com/?locale=vi_VN" id={footerStyles.icons}><FaFacebook size={25} color="#c0c0c0" /></a>
-                        <a href="https://www.tiktok.com/vi-VN/" id={footerStyles.icons}><FaTiktok size={25} color="#c0c0c0" /></a>
-                        <a href="https://www.youtube.com/" id={footerStyles.icons}><FaYoutube size={25} color="#c0c0c0" /></a>
-                    </div>
-                </div>
             </div>
             <div className={footerStyles.group2}>
-                <p id={footerStyles.text2}>Liên hệ và hỗ trợ thông qua<br /></p>
-                <div className={footerStyles.information}>
-                    <a>0846708753 <br /> 0944094603 <br /> 0392155116</a>
-                    <a>nguyentanchieu2002@gmail.com <br /> trungtinhuynh04@gmail.com <br />pnhatduy0409@gmail.com</a>
+                <div className={footerStyles.containerGroup2}>
+                    <div className={footerStyles.containerInfor}>
+                        <p id={footerStyles.text2}>Cho khách hàng</p>
+                        <Link className={footerStyles.linkText} href="#">Chính sách và quy định</Link><br /><br />
+                        <Link className={footerStyles.linkText} href="#">Giới thiệu về AydenBrands</Link>
+                        <p style={{ color: '#C0BAB2', fontWeight: 'bold' }}>Liên hệ và hỗ trợ thông qua</p>
+                        <div className={footerStyles.infoText} ><a style={{ fontWeight: 'bold' }}>Điện thoại: </a> <a>0846708753</a></div><br />
+                        <div className={footerStyles.infoText} ><a style={{ fontWeight: 'bold' }}>Email: </a> <a>nguyentanchieu2002@gmail.com</a></div>
+                    </div>
+                    <div className={footerStyles.group_child2}>
+                        <p id={footerStyles.text1}>Theo dõi tại<br /></p>
+                        <div className={footerStyles.GroupIcons}>
+                            <a href="https://www.facebook.com/?locale=vi_VN" id={footerStyles.icons}><FaFacebook size={25} color="#c0c0c0" /></a>
+                            <a href="https://www.tiktok.com/vi-VN/" id={footerStyles.icons}><FaTiktok size={25} color="#c0c0c0" /></a>
+                            <a href="https://www.youtube.com/" id={footerStyles.icons}><FaYoutube size={25} color="#c0c0c0" /></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

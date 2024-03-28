@@ -6,7 +6,7 @@ import LoginAccout from "../css/Login.module.css";
 const Login = () => {
     return (
         <button type="button" className={LoginAccout.loginBtn}>
-            <Image src="/icon/login.svg" width={22} height={22} alt="Login" /></button>
+            <Link href="/Login"><Image src="/icon/login.svg" width={24} height={24} alt="Login" /></Link></button>
     )
 }
 export default Login;

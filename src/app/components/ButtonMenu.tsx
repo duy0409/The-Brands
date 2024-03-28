@@ -74,8 +74,10 @@ const BurgerMenu = () => {
                                 </div><br />
                             </li>
                         </ul>
-                    )}</div>
-            </div></div>
+                    )}
+                </div>
+            </div>
+        </div>
     );
 };
 
