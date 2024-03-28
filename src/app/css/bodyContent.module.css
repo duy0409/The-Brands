@@ -205,25 +205,12 @@
     }
 
     .overlay {
-        position: absolute;
-        bottom: 2.2%;
-        left: 0;
-        width: 72.5%;
-        height: 0;
-        color: aliceblue;
-        background-color: rgba(0, 0, 0, 0.8);
-        opacity: 0;
-        transition: height 0.3s ease, opacity 0.3s ease;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
-        font-size: 10px;
+        display: none;
     }
 
-    .imageWrapper:hover .overlay {
+    /* .imageWrapper:hover .overlay {
         height: 60%;
         opacity: 1;
-    }
+    } */
 
 }
