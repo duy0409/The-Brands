@@ -23,8 +23,8 @@ const Footer = () => {
                 <div className={footerStyles.containerGroup2}>
                     <div className={footerStyles.containerInfor}>
                         <p id={footerStyles.text2}>Cho khách hàng</p>
-                        <Link className={footerStyles.linkText} href="#">Chính sách và quy định</Link><br /><br />
-                        <Link className={footerStyles.linkText} href="#">Giới thiệu về AydenBrands</Link>
+                        <Link className={footerStyles.linkText} href="/Policy">Chính sách và quy định</Link><br /><br />
+                        <Link className={footerStyles.linkText} href="/Introduce">Giới thiệu về AydenBrands</Link>
                         <p style={{ color: '#C0BAB2', fontWeight: 'bold' }}>Liên hệ và hỗ trợ thông qua</p>
                         <div className={footerStyles.infoText} ><a style={{ fontWeight: 'bold' }}>Điện thoại: </a> <a>0846708753</a></div><br />
                         <div className={footerStyles.infoText} ><a style={{ fontWeight: 'bold' }}>Email: </a> <a>nguyentanchieu2002@gmail.com</a></div>

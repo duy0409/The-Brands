@@ -92,6 +92,7 @@
     .containerPage2 {
         width: auto;
         justify-content: center;
+        overflow-x: hidden;
     }
 }
 

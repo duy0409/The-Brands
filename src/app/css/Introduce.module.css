@@ -1,0 +1,39 @@
+.policyContainer {
+    margin: 0 auto;
+}
+
+.policyContent {
+    text-align: center;
+    line-height: 1.5;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.policyContent h2 {
+    color: #CDCDCD;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.policyContent h3 {
+    color: #CDCDCD;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.policyContent ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #CDCDCD;
+}
+
+.policyContent li {
+    margin-bottom: 5px;
+    list-style: none;
+    color: #CDCDCD;
+}
+
+.policyContent p {
+    color: #CDCDCD;
+}
