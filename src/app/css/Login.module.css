@@ -32,6 +32,17 @@
 
 }
 
+.RegisterPage {
+    background-image: url('/login/register.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    text-align: center;
+
+}
+
 .image {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -54,8 +65,8 @@
     font-weight: bold;
 }
 
-.lable {
-    font-size: 16px;
+.label {
+
     color: #C0BAB2;
 }
 
@@ -123,7 +134,22 @@
     height: 50px;
 }
 
+.btnSignUp {
+    background-color: #181a1b;
+    color: #C0BAB2;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    width: 50%;
+    height: 50px;
+}
+
 .btnSignIn:hover {
+    color: aliceblue;
+    filter: brightness(150%);
+}
+
+.btnSignUp:hover {
     color: aliceblue;
     filter: brightness(150%);
 }
@@ -179,10 +205,25 @@
         height: 40px;
     }
 
+    .btnSignUp {
+        background-color: #181a1b;
+        color: #C0BAB2;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        width: 40%;
+        height: 40px;
+    }
+
     #title {
         text-align: center;
         font-family: "Poppins", sans-serif;
         font-size: 24px;
         font-weight: bold;
+    }
+
+    .label {
+        font-size: 12px;
+        color: #C0BAB2;
     }
 }

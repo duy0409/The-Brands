@@ -19,7 +19,7 @@ const Login = () => {
 
             <Link href="/"><Image className={Style.image} src="/FashionNews/logo.svg" alt="logo" width={190} height={40} /></Link>
             <div className={Style.container}>
-                <a id={Style.title}>Login</a><br /><br />
+                <a id={Style.title}>Login</a><br /><br /><br /><br />
                 <form className={Style.bodyContent}>
                     <label htmlFor="email" className={Style.label}>User name or Email:</label>
                     <input className={Style.inputE} id="email" name="email" /><br />

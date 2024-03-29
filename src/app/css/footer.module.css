@@ -112,6 +112,10 @@
     font-weight: bold;
 }
 
+.linkText:hover {
+    color: aliceblue;
+}
+
 #text2 {
     margin-top: 0;
     font-weight: bold;
