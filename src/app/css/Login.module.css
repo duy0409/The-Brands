@@ -47,10 +47,11 @@
     color: #C0BAB2;
 }
 
-.title {
+#title {
     text-align: center;
     font-family: "Poppins", sans-serif;
-
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .lable {
@@ -64,11 +65,124 @@
     justify-content: left;
     text-align: left;
     width: 90%;
-    background-color: aqua;
     margin-left: auto;
     margin-right: auto;
 }
 
-.input {
-    width: 200%;
+.inputE {
+    margin-left: 0;
+    margin-right: 0;
+    width: 168%;
+    height: 25px;
+    background-color: #35393B;
+    border: none;
+    color: #C0BAB2;
+    outline: none;
+    border-bottom: #C0BAB2 solid 1px;
+}
+
+.inputP {
+    color: #C0BAB2;
+    margin-left: 0;
+    margin-right: 0;
+    width: 145%;
+    height: 25px;
+    background-color: #35393B;
+    border: none;
+    outline: none;
+}
+
+.fromPassword {
+    display: flex;
+    width: 170%;
+    border-bottom: #C0BAB2 solid 1px;
+}
+
+.eye {
+    border: none;
+    background-color: #35393B;
+}
+
+.fgPassword {
+    text-decoration: none;
+    color: #C0BAB2;
+}
+
+.fgPassword:hover {
+    color: aliceblue;
+
+}
+
+.btnSignIn {
+    background-color: #181a1b;
+    color: #C0BAB2;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    width: 50%;
+    height: 50px;
+}
+
+.btnSignIn:hover {
+    color: aliceblue;
+    filter: brightness(150%);
+}
+
+.linkHere {
+    display: flex;
+    color: #C0BAB2;
+    font-size: 16px;
+    justify-content: center;
+}
+
+#here {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 50%;
+    }
+
+    .inputE {
+        width: 100%;
+    }
+
+    .fromPassword {
+        width: 102%;
+    }
+
+    .fgPassword {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .inputP {
+        width: 100%;
+    }
+
+    .linkHere {
+        display: flex;
+        color: #C0BAB2;
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .btnSignIn {
+        background-color: #181a1b;
+        color: #C0BAB2;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        width: 40%;
+        height: 40px;
+    }
+
+    #title {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
 }

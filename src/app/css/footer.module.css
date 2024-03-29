@@ -89,7 +89,7 @@
 }
 
 .containerGroup2 {
-    width: 90%;
+    width: 95%;
     display: flex;
     margin-top: -25px;
 
@@ -99,6 +99,7 @@
     margin-top: 15px;
     margin-left: 40px;
     display: block;
+
 }
 
 .information {
@@ -117,6 +118,7 @@
     color: #C0BAB2;
     font-size: 20px;
 }
+
 
 .information a {
     color: aliceblue;
