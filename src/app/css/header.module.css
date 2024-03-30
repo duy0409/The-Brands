@@ -20,7 +20,7 @@
 
 .item {
     background-color: #181A1B;
-    font-family: 'Poppins';
+    font-family: '"Poppins", sans-serif';
     color: #8f816a;
     transition: all 0.3s;
     text-decoration: none;

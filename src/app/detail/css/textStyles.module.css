@@ -57,6 +57,7 @@
     gap: 10px;
     padding: 10px;
 
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -115,4 +116,39 @@
         margin-left: 0;
         margin-right: 0;
     }
+}
+
+.items {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    background: transparent;
+
+
+    -webkit-transition: border-color 0.1s;
+    transition: border-color 0.1s;
+    overflow: hidden;
+}
+
+.items:hover {
+    border-color: #bfc1c5;
+
+}
+
+.bannerImg {
+    overflow: hidden;
+    height: 100%;
+
+}
+
+.imageItems {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+
+}
+
+.items:hover .imageItems {
+    transform: scale(1.15) rotate(0.01deg);
+    opacity: 0.5;
+
 }

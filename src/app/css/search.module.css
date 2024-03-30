@@ -1,17 +1,14 @@
-.searchBar {
-    display: flex;
-    align-items: center;
-}
-
-.input {
+.txtSearch {
     padding: 3px;
     border: 1px solid #ccc;
     border-radius: 5px 0 0 5px;
     outline: none;
     width: 100px;
+    padding-top: 6px;
+
 }
 
-.button {
+.btnSearch {
     padding: 4px 4px;
     color: #8f816a;
     border-radius: 0 5px 5px 0;
@@ -19,6 +16,63 @@
     background-color: #8f816a;
 }
 
-.button:hover {
-    background-color: #0056b3;
+.btnSearch:hover {
+    background-color: transparent;
+}
+
+/*  */
+.gallerycontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.galleryitem {
+    padding: 10px;
+    color: wheat;
+    text-align: center;
+    width: 90%;
+}
+
+.galleryitem img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .gallerycontainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .galleryitem {
+        max-width: 95%;
+
+    }
+
+    .galleryitem {
+        padding: 10px;
+        color: wheat;
+        text-align: center;
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #imageS {
+        width: 170px;
+        height: auto;
+    }
 }

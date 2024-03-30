@@ -1,6 +1,6 @@
 .loginBtn {
     border-radius: 5px 5px 5px 5px;
-    background-color: #181a1b;
+    background-color: transparent;
     border: none;
 
     @media only screen and (max-width: 800px) {
@@ -10,13 +10,24 @@
     }
 }
 
+.loginBtn:hover {
+    color: aliceblue;
+    filter: brightness(150%);
+}
+
 .like {
-    background-color: #181a1b;
+    background-color: transparent;
     border: none;
 
     @media only screen and (max-width: 800px) {
         margin-top: 15px;
     }
+}
+
+.like:hover {
+    color: aliceblue;
+    filter: brightness(150%);
+
 }
 
 

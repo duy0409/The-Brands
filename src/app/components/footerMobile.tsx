@@ -30,6 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <br /><br /><br /><br />
         </div>
     );
 }

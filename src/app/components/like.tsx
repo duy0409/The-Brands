@@ -6,8 +6,8 @@ import like from "../css/Login.module.css";
 const Like = () => {
     return (
         <button type="button" className={like.like}
-            style={{ backgroundColor: '#181a1b', borderRadius: '5px 5px 5px 5px' }}
-        ><Image src="/icon/heart.svg" width={24} height={24} alt="like" /></button>
+            style={{ borderRadius: '10px 10px 10px 10px' }}
+        ><Image src="/icon/Vector.svg" width={24} height={24} alt="like" /></button>
     )
 }
 export default Like;
