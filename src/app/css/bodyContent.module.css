@@ -28,8 +28,6 @@
     font-weight: bold;
 }
 
-
-
 /* Logo content */
 .gallery {
     display: grid;
@@ -39,7 +37,16 @@
     justify-content: center;
     padding-bottom: 60px;
     padding-left: 45px;
+}
 
+.more {
+    display: none;
+
+
+    @media only screen and (max-width: 800px) {
+        display: block;
+        position: relative;
+    }
 }
 
 .imageContainer {
@@ -47,8 +54,6 @@
     margin-right: auto;
     position: relative;
     display: flex;
-
-
 }
 
 .imageWrapper {
@@ -153,7 +158,6 @@
     }
 }
 
-
 .containerNews {
     display: block;
     padding: auto;
@@ -189,17 +193,22 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     .bodyContainer .gallery {
         display: grid;
         grid-template-columns: auto auto auto;
-
+        height: 350px;
         margin-left: 0%;
         margin-right: 0%;
+        overflow: hidden;
+    }
+
+    .explain {
+        height: 100% !important;
+        overflow: auto !important;
     }
 
     .imageWrapper .imgLogo {
-
         max-width: 100%;
         height: auto;
     }

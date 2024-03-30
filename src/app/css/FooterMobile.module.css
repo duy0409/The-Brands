@@ -1,12 +1,11 @@
 .footer {
     display: none;
 
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 800px) {
         color: #C0BAB2;
         display: block;
     }
 }
-
 
 .line {
     background-color: #C0BAB2;

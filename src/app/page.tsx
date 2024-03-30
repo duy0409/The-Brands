@@ -1,5 +1,5 @@
 'use client'
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Carousel from "../app/components/Carousel";
 import bg from "../app/css/Background.module.css";
@@ -28,13 +28,15 @@ export default Home;
 
 const Content = () => {
   const slides = ['/bn1.svg', '/bn2.svg', '/bn3.svg'];
+  const [explain, setExplain] = useState(false);
   return (
     <div className={bodyContent.bodyContainer}>
       <div><ButtonMenu /><Header /> <Carousel slides={slides} /> </div>
 
       <p id={bodyContent.title} > BRAND </p>
       <div className={bodyContent.All_logo}>
-        <div className={bodyContent.gallery}>
+        <div className={`${bodyContent.gallery} ${explain ? bodyContent.explain : ''}`}>
+
           {brands.map(item => <div key={item.id} className={bodyContent.imageContainer}><Link href={`/detail/${item.id}`}>
             <div className={bodyContent.imageWrapper}>
               <Image src={item.thumbnail} alt={item.description} className={bodyContent.imgLogo} width={170} height={170} />
@@ -48,7 +50,9 @@ const Content = () => {
       </div>
 
       {/* ========================Fashion News================================= */}
-      <div id={bodyContent.titleNew}>
+
+      <div id={bodyContent.titleNew}><br />
+        <div ><button className={bodyContent.more} onClick={() => setExplain((state) => !state)}> more </button></div><br /><br />
         <h2 id={bodyContent.h2}>Fashion News</h2>
         <div className={bodyContent.textNews}>
           <a>FOOTWEAR | </a>
