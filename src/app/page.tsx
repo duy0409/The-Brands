@@ -47,12 +47,27 @@ const Content = () => {
           </Link>
           </div>)}
         </div>
+        <div>
+          {explain ? (
+            <div>
+              <button className={bodyContent.more} onClick={() => setExplain((state) => !state)}>
+                Collapse ᐱ
+              </button>
+            </div>
+          ) : (
+            <div>
+              <button className={bodyContent.more} onClick={() => setExplain((state) => !state)}>
+                More ᐯ
+              </button>
+            </div>
+          )}
+        </div><br /><br />
       </div>
 
       {/* ========================Fashion News================================= */}
 
       <div id={bodyContent.titleNew}><br />
-        <div ><button className={bodyContent.more} onClick={() => setExplain((state) => !state)}> more </button></div><br /><br />
+
         <h2 id={bodyContent.h2}>Fashion News</h2>
         <div className={bodyContent.textNews}>
           <a>FOOTWEAR | </a>

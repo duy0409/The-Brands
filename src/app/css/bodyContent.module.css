@@ -10,7 +10,6 @@
     position: absolute;
     overflow-x: hidden;
     overflow-y: hidden;
-
 }
 
 .All_logo {
@@ -221,5 +220,24 @@
         height: 60%;
         opacity: 1;
     } */
+    .gallery {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        column-gap: 0px;
+        row-gap: 35px;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-left: 45px;
+    }
+
+}
+
+.more {
+    background-color: #181A1B;
+    border: none;
+    color: #C0BAB2;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
