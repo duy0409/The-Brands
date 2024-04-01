@@ -58,6 +58,7 @@
     text-decoration: none;
     width: 150px;
     border-bottom: #ffffff solid 1px;
+    font-family: '"Poppins", sans-serif';
 }
 
 .dropdownItem:first-child {
