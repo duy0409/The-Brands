@@ -41,43 +41,44 @@ const BurgerMenu = () => {
                             <div className={isOpen ? `${headerStyles.bar} ${headerStyles.open}` : headerStyles.bar}></div>
                             <div className={isOpen ? `${headerStyles.bar} ${headerStyles.open}` : headerStyles.bar}></div>
                         </button>
-                        <br />{isOpen && (
-                            <ul className={headerStyles.mobileMenu}>
-                                <li>
-                                    <div className={headerStyles.item} onClick={toggleVietnameseBrands}>
-                                        Vietnamese Brands
-                                        <div className={`${headerStyles.dropdown} ${vietnameseBrandsOpen ? headerStyles.open : ''}`}>
-                                            <a href="/detail/20" className={headerStyles.dropdownItem}>Yame.vn</a>
-                                            <a href="/detail/9" className={headerStyles.dropdownItem}>THEK300</a>
-                                            <a href="/detail/14" className={headerStyles.dropdownItem}>MENDE</a>
-                                        </div>
-                                    </div><br />
-                                </li>
-                                <li>
-                                    <div className={headerStyles.item} onClick={toggleUsUkBrands}>
-                                        US UK Brands
-                                        <div className={`${headerStyles.dropdown} ${usUkBrandsOpen ? headerStyles.open : ''}`}>
 
-                                            <a href="/detail/7" className={headerStyles.dropdownItem}>Fear Of God</a>
-                                            <a href="/detail/13" className={headerStyles.dropdownItem}>Levis</a>
-                                            <a href="/detail/6" className={headerStyles.dropdownItem}>Essential</a>
-                                        </div>
-                                    </div><br />
-                                </li>
-                                <li>
-                                    <div className={headerStyles.item} onClick={toggleKoreanBrands}>
-                                        Korean Brands
-                                        <div className={`${headerStyles.dropdown} ${koreanBrandsOpen ? headerStyles.open : ''}`}>
-
-                                            <a href="/detail/1" className={headerStyles.dropdownItem}>ADLV</a>
-                                        </div>
-                                    </div><br />
-                                </li>
-                            </ul>
-                        )}
                     </div>
                 </div>
             </div>
+            <br />{isOpen && (
+                <ul className={headerStyles.mobileMenu}>
+                    <li>
+                        <div className={headerStyles.item} onClick={toggleVietnameseBrands}>
+                            <a id={headerStyles.textMenu}>Vietnamese Brands</a>
+                            <div className={`${headerStyles.dropdown} ${vietnameseBrandsOpen ? headerStyles.open : ''}`}>
+                                <a href="/detail/20" className={headerStyles.dropdownItem}>Yame.vn</a>
+                                <a href="/detail/9" className={headerStyles.dropdownItem}>THEK300</a>
+                                <a href="/detail/14" className={headerStyles.dropdownItem}>MENDE</a>
+                            </div>
+                        </div><br />
+                    </li>
+                    <li>
+                        <div className={headerStyles.item} onClick={toggleUsUkBrands}>
+                            <a id={headerStyles.textMenu}>US UK Brands</a>
+                            <div className={`${headerStyles.dropdown} ${usUkBrandsOpen ? headerStyles.open : ''}`}>
+
+                                <a href="/detail/7" className={headerStyles.dropdownItem}>Fear Of God</a>
+                                <a href="/detail/13" className={headerStyles.dropdownItem}>Levis</a>
+                                <a href="/detail/6" className={headerStyles.dropdownItem}>Essential</a>
+                            </div>
+                        </div><br />
+                    </li>
+                    <li>
+                        <div className={headerStyles.item} onClick={toggleKoreanBrands}>
+                            <a id={headerStyles.textMenu}>Korean Brands</a>
+                            <div className={`${headerStyles.dropdown} ${koreanBrandsOpen ? headerStyles.open : ''}`}>
+
+                                <a href="/detail/1" className={headerStyles.dropdownItem1}>ADLV</a>
+                            </div>
+                        </div><br />
+                    </li>
+                </ul>
+            )}
         </div>
     );
 };

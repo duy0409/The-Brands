@@ -1,6 +1,6 @@
 .containerBur {
     display: block;
-    border-bottom: 1px solid #303436;
+    border-bottom: 2px solid #303436;
 }
 
 .burgerMenu {
@@ -44,11 +44,10 @@
     border: none;
     font-size: 20px;
     position: relative;
-    top: 10px;
     right: 5%;
     z-index: 999;
     color: #D0CCC6;
-    margin-left: 160px;
+    margin-bottom: 15px;
 }
 
 .containerMenu {
@@ -59,7 +58,7 @@
     margin-right: 0;
     justify-content: right;
     text-align: right;
-
+    justify-content: space-evenly;
 }
 
 
@@ -69,13 +68,6 @@
     margin-left: 10%;
 }
 
-.like {
-    margin-right: -140px;
-}
-
-.login {
-    margin-right: -160px;
-}
 
 .burgerMenu.like {
     top: 20px;
@@ -116,17 +108,13 @@
 
 .mobileMenu {
     list-style: none;
-
-    left: 0;
     width: auto;
     padding: 0;
     margin: 0;
     margin-right: 10px;
-    /* box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08), 0 4px 6px -2px rgba(71, 63, 79, 0.16); */
     z-index: 998;
     background-color: #181a1b;
-
-
+    text-align: right;
 }
 
 .item {
@@ -138,7 +126,7 @@
 .dropdown {
     display: none;
     border-bottom: #f7f6f6 1px;
-
+    font-size: 13px;
 }
 
 
@@ -152,7 +140,6 @@
     color: #8f816a;
     text-decoration: none;
     transition: background-color 1s ease;
-    border-top: #8f816a solid 1px;
 
 }
 
@@ -160,6 +147,20 @@
     border-bottom: #8f816a solid 1px;
 }
 
+.dropdownItem1 {
+    display: block;
+    padding: 10px;
+    color: #8f816a;
+    text-decoration: none;
+    transition: background-color 1s ease;
+    border-bottom: none;
+}
+
 .dropdown:hover {
     display: block;
+}
+
+#textMenu {
+    font-size: 15px;
+    font-weight: 800;
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import LoginAccout from "../css/Login.module.css";
+import LoginA from "../css/Login.module.css";
 
 const Login = () => {
     return (
-        <button type="button" className={LoginAccout.loginBtn}>
+        <button type="button" className={LoginA.loginBtn}>
             <Link href="/Login"><Image src="/icon/Vectorl.svg" width={24} height={24} alt="Login" /></Link></button>
     )
 }
