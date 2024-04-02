@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, ChangeEvent } from 'react';
-import Style from "../../css/Login.module.css";
+import Style from "../css/Login.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
