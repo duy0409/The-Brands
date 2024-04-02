@@ -33,9 +33,12 @@ const BurgerMenu = () => {
                     <a href="/"><Image src="/FashionNews/logo.svg" width={182} height={38} alt="Logo" /></a>
                 </div>
                 <div className={headerStyles.containerMenu}>
-                    <div className={headerStyles.like}><Like /></div>
-                    <div className={headerStyles.login}><Login /></div>
+
                     <div className={headerStyles.container}>
+                        <div className={headerStyles.itemMenu}>
+                            <div className={headerStyles.like}><Like /></div>
+                            <div className={headerStyles.login}><Login /></div>
+                        </div>
                         <button className={headerStyles.burgerIcon} onClick={toggleMenu}>
                             <div className={isOpen ? `${headerStyles.bar} ${headerStyles.open}` : headerStyles.bar}></div>
                             <div className={isOpen ? `${headerStyles.bar} ${headerStyles.open}` : headerStyles.bar}></div>

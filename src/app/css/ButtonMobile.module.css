@@ -1,6 +1,13 @@
 .containerBur {
-    display: block;
+    display: none;
     border-bottom: 2px solid #303436;
+
+}
+
+@media only screen and (max-width: 480px) {
+    .containerBur {
+        display: block;
+    }
 }
 
 .burgerMenu {
@@ -8,10 +15,6 @@
     text-align: right;
     display: grid;
     grid-template-columns: auto auto;
-
-    @media only screen and (min-width: 800px) {
-        display: none;
-    }
 
     @media only screen and (max-width: 480px) {
         .burgerIcon {
@@ -25,17 +28,15 @@
             z-index: 999;
             background-color: transparent;
             color: #D0CCC6;
-            margin-left: 105px;
-        }
-
-        .like {
-            margin-right: -100px;
-        }
-
-        .login {
-            margin-right: -120px;
         }
     }
+}
+
+.itemMenu {
+    position: relative;
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .burgerIcon {
@@ -52,13 +53,13 @@
 
 .containerMenu {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-area: 20px;
     grid-column-gap: 10px;
     margin-right: 0;
     justify-content: right;
     text-align: right;
-    justify-content: space-evenly;
+
 }
 
 
@@ -90,8 +91,9 @@
 
 .container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
     text-align: right;
+
 }
 
 .open .bar:nth-child(1) {
