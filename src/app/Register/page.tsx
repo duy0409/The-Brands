@@ -1,10 +1,10 @@
 'use client'
 import React, { useState, ChangeEvent } from 'react';
-import Style from "../css/Login.module.css";
+import Style from "../../css/Login.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const Login = () => {
+const Register = () => {
     const [showPassword1, setShowPassword1] = useState(true);
     const [showPassword2, setShowPassword2] = useState(true);
     const [inputType1, setInputType1] = useState('password');
@@ -60,7 +60,7 @@ const Login = () => {
             <div className={Style.container}>
                 <a id={Style.title}>Register</a><br /><br />
                 <form className={Style.bodyContent}>
-                    <label htmlFor="email" className={Style.label}>User name or Email:</label>
+                    <label htmlFor="email" className={Style.label}>Email:</label>
                     <input className={Style.inputE} id="email" name="email" onChange={handleEmailChange} /><br />
                     <label htmlFor="password" className={Style.label}>Password:</label>
                     <div className={Style.fromPassword}>
@@ -78,12 +78,11 @@ const Login = () => {
                 </div>
                 <br /><div className={Style.linkHere}>
                     <a >Already have an account? </a>
-                    <a href='/Login' id={Style.here}> Login</a>
+                    <Link href='/Login' id={Style.here}> Login</Link>
                 </div>
             </div>
 
         </div>
     );
 };
-
-export default Login;
+export default Register;

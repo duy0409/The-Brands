@@ -1,5 +1,6 @@
 .containerBur {
     display: block;
+    border-bottom: 1px solid #303436;
 }
 
 .burgerMenu {
@@ -22,8 +23,9 @@
             top: 10px;
             right: 0;
             z-index: 999;
+            background-color: transparent;
             color: #D0CCC6;
-            margin-left: 100px;
+            margin-left: 105px;
         }
 
         .like {
@@ -57,6 +59,7 @@
     margin-right: 0;
     justify-content: right;
     text-align: right;
+
 }
 
 
@@ -118,6 +121,7 @@
     width: auto;
     padding: 0;
     margin: 0;
+    margin-right: 10px;
     /* box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08), 0 4px 6px -2px rgba(71, 63, 79, 0.16); */
     z-index: 998;
     background-color: #181a1b;

@@ -73,7 +73,7 @@ const pageChild = ({ params }: { params: { id: string } }) => {
                 ))}
                 <br />
                 <RandomLogo />
-                <Footer /><FMobile />
+                <Footer /><br /><br /><FMobile />
             </div>
         </div >
     );

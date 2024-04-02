@@ -41,7 +41,7 @@ const BurgerMenu = () => {
                             <div className={isOpen ? `${headerStyles.bar} ${headerStyles.open}` : headerStyles.bar}></div>
                             <div className={isOpen ? `${headerStyles.bar} ${headerStyles.open}` : headerStyles.bar}></div>
                         </button>
-                        <br /><br />{isOpen && (
+                        <br />{isOpen && (
                             <ul className={headerStyles.mobileMenu}>
                                 <li>
                                     <div className={headerStyles.item} onClick={toggleVietnameseBrands}>
