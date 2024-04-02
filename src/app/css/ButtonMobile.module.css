@@ -1,12 +1,13 @@
 .containerBur {
     display: none;
-    border-bottom: 2px solid #303436;
+
 
 }
 
 @media only screen and (max-width: 480px) {
     .containerBur {
         display: block;
+        border-bottom: 2px solid #303436;
     }
 }
 
@@ -15,8 +16,9 @@
     text-align: right;
     display: grid;
     grid-template-columns: auto auto;
+    margin-bottom: -15px;
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 800px) {
         .burgerIcon {
             cursor: pointer;
             background-color: #181a1b;
@@ -113,10 +115,11 @@
     width: auto;
     padding: 0;
     margin: 0;
-    margin-right: 10px;
+    margin-right: 18px;
     z-index: 998;
     background-color: #181a1b;
     text-align: right;
+    margin-bottom: 0;
 }
 
 .item {

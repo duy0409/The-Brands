@@ -6,7 +6,7 @@ import LoginA from "../css/Login.module.css";
 const Login = () => {
     return (
         <button type="button" className={LoginA.loginBtn}>
-            <Link href="/Login"><Image src="/icon/Vectorl.svg" width={24} height={24} alt="Login" /></Link></button>
+            <Link href="/Login"><Image src="/icon/lo.svg" width={24} height={24} alt="Login" /></Link></button>
     )
 }
 export default Login;

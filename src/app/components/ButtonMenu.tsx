@@ -78,7 +78,7 @@ const BurgerMenu = () => {
 
                                 <a href="/detail/1" className={headerStyles.dropdownItem1}>ADLV</a>
                             </div>
-                        </div><br />
+                        </div>
                     </li>
                 </ul>
             )}

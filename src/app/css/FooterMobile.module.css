@@ -1,11 +1,5 @@
 .footer {
     display: none;
-
-    @media only screen and (max-width: 480px) {
-        color: #C0BAB2;
-        display: block;
-        border-top: 10px solid #303436;
-    }
 }
 
 @media only screen and (max-width: 800px) {

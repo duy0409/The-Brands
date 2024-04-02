@@ -7,7 +7,7 @@ const Like = () => {
     return (
         <button type="button" className={like.like}
             style={{ borderRadius: '10px 10px 10px 10px' }}
-        ><Image src="/icon/Vector.svg" width={24} height={24} alt="like" /></button>
+        ><Image src="/icon/like.svg" width={24} height={24} alt="like" /></button>
     )
 }
 export default Like;

@@ -22,25 +22,24 @@
 
 /*  */
 .gallerycontainer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    gap: 5px;
+    display: flow-root;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .galleryitem {
-    padding: 10px;
+    justify-content: center;
     color: wheat;
     text-align: center;
     width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .galleryitem img {
-    display: block;
     margin: 0 auto;
 
 }
