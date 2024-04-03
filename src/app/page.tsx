@@ -66,14 +66,12 @@ const Content = () => {
       {/* ========================Fashion News================================= */}
 
       <div className={bodyContent.bodyNews}>
-        <div id={bodyContent.titleNew}>
-          <div className={bodyContent.textNews}>
-            <a id={bodyContent.h2}>Fashion News</a><br />
-            <a>FOOTWEAR | </a>
-            <a> LOCAL BRAND | </a>
-            <a> GLOBAL BRAND</a>
-          </div>
-        </div >
+        <div className={bodyContent.textNews}>
+          <a id={bodyContent.h2}>Fashion News</a><br />
+          <a>FOOTWEAR | </a>
+          <a> LOCAL BRAND | </a>
+          <a> GLOBAL BRAND</a>
+        </div>
         <div className={bodyContent.news}>
           {News.map(item => (
             <div key={item.id} className={bodyContent.containerNews}>
