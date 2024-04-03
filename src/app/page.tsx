@@ -36,10 +36,9 @@ const Content = () => {
       <p id={bodyContent.title} > BRAND </p>
       <div className={bodyContent.All_logo}>
         <div className={`${bodyContent.gallery} ${explain ? bodyContent.explain : ''}`}>
-
           {brands.map(item => <div key={item.id} className={bodyContent.imageContainer}><Link href={`/detail/${item.id}`}>
             <div className={bodyContent.imageWrapper}>
-              <Image src={item.thumbnail} alt={item.description} className={bodyContent.imgLogo} width={170} height={170} />
+              <img src={item.thumbnail} alt={item.description} className={bodyContent.imgLogo} width={170} height={170} />
               <div className={bodyContent.overlay}>
                 <p>{item.name}</p>
               </div>
@@ -66,33 +65,30 @@ const Content = () => {
 
       {/* ========================Fashion News================================= */}
 
-      <div id={bodyContent.titleNew}><br />
-
-        <h2 id={bodyContent.h2}>Fashion News</h2>
-        <div className={bodyContent.textNews}>
-          <a>FOOTWEAR | </a>
-          <a> LOCAL BRAND | </a>
-          <a> GLOBAL BRAND</a>
-        </div>
-
+      <div className={bodyContent.bodyNews}>
+        <div id={bodyContent.titleNew}>
+          <div className={bodyContent.textNews}>
+            <a id={bodyContent.h2}>Fashion News</a><br />
+            <a>FOOTWEAR | </a>
+            <a> LOCAL BRAND | </a>
+            <a> GLOBAL BRAND</a>
+          </div>
+        </div >
         <div className={bodyContent.news}>
-
           {News.map(item => (
             <div key={item.id} className={bodyContent.containerNews}>
               <Link href={item.link} className={bodyContent.imgNews}>
                 <div className={bodyContent.imageAndText}>
                   <Image src={item.thumbnail} alt={item.description} width={300} height={300} />
                 </div>
-              </Link>
-              <Link href={item.link} className={bodyContent.textNews}>
                 <div id={bodyContent.text}>
-                  {item.New1}{item.New2}
+                  {item.New1}
                 </div>
               </Link>
             </div>
           ))}
         </div>
-      </div >
+      </div>
       <div className={bodyContent.space}><br /><br /><br /></div>
       <div><Footer /></div>
       <div><FtMobile /></div>

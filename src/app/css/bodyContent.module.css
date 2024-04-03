@@ -35,7 +35,6 @@
     row-gap: 35px;
     justify-content: center;
     padding-bottom: 60px;
-    padding-left: 45px;
 }
 
 .more {
@@ -57,7 +56,8 @@
 
 .imageWrapper {
     position: relative;
-    padding-right: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
 
@@ -69,6 +69,8 @@
     left: 0;
     width: 81%;
     height: 0;
+    margin-left: 20px;
+    margin-right: auto;
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.8);
     opacity: 0;
@@ -86,16 +88,16 @@
 }
 
 /* Fashion News */
+.bodyNews {}
+
 .titleNews {
     background-color: rgb(247, 245, 243);
-
 }
 
 #h2 {
     text-align: center;
     color: antiquewhite;
     font-size: 40px;
-    margin-top: -20px;
     font-style: italic;
     font-weight: bold;
     background-color: rgb(41, 36, 30);
@@ -113,15 +115,13 @@
 
 .textNews {
     color: #C0BAB2;
-    margin-top: -40px;
-    display: flex;
     font-size: 16px;
-    justify-content: center;
-    width: 75%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(41, 36, 30);
     margin-bottom: 0%;
+    text-align: center;
+    width: 75%;
 
     @media only screen and (max-width: 1000px) {
         display: block;
@@ -130,10 +130,6 @@
         text-align: center;
     }
 
-}
-
-.titleNews a {
-    margin-right: 5px;
 }
 
 .news {
@@ -155,6 +151,11 @@
         width: 85%;
         height: 85%;
     }
+}
+
+.contentNew {
+    display: grid;
+    grid-template-rows: auto auto;
 }
 
 .containerNews {
@@ -184,7 +185,11 @@
 }
 
 #text {
-    overflow-wrap: break-word;
+    margin-top: -30px;
+    padding-bottom: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #text:hover {

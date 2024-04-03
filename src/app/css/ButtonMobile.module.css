@@ -95,7 +95,6 @@
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: right;
-
 }
 
 .open .bar:nth-child(1) {
@@ -120,6 +119,7 @@
     background-color: #181a1b;
     text-align: right;
     margin-bottom: 0;
+
 }
 
 .item {
