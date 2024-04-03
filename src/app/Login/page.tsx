@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Style from "../css/Login.module.css";
 import Image from "next/image";
@@ -14,6 +14,27 @@ const Login = () => {
         setShowPassword(!showPassword);
         setInputType(showPassword ? 'text' : 'password');
     };
+
+
+    useEffect(() => {
+        // (async () => {
+        //     const response = await fetch('/api/login');
+        //     const body = await response.json()
+        //     console.log("body", body)
+        // })()
+        (async () => {
+            const response = await fetch('/api/login', {
+                method: "POST",
+                body: JSON.stringify({ messages: "Hello" })
+            });
+            const { data } = await response.json()
+            if (data.isLogged) {
+                alert("Dang nhap")
+            }
+        })()
+    }, [])
+
+
     return (
         <div className={Style.loginPage}>
 

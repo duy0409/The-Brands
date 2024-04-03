@@ -12,6 +12,7 @@ import brands from "./config/brand.json";
 import News from "./config/news.json";
 import ButtonMenu from "../app/components/ButtonMenu";
 
+
 const Home = () => {
   return (
     <div className={bg.container}>
@@ -60,9 +61,8 @@ const Content = () => {
               </button>
             </div>
           )}
-        </div><br /><br />
+        </div><br />
       </div>
-
       {/* ========================Fashion News================================= */}
 
       <div className={bodyContent.bodyNews}>
@@ -87,7 +87,7 @@ const Content = () => {
           ))}
         </div>
       </div>
-      <div className={bodyContent.space}><br /><br /><br /></div>
+      <div className={bodyContent.space}><br /><br /></div>
       <div><Footer /></div>
       <div><FtMobile /></div>
     </div >
