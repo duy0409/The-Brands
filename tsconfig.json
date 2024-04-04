@@ -34,7 +34,9 @@
     ".next/types/**/*.ts",
     "src/app/components/SearchBar.tsx",
     ".next/types/app/testpage/page.tsx",
-    "src/app/components/Carousel.jsx"
+    "src/app/components/Carousel.jsx",
+    "src/app/Login/page.jsx",
+    "src/app/api/login/route.js"
   ],
   "exclude": [
     "node_modules"
