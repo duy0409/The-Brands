@@ -11,7 +11,8 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const router = useRouter();
-    const togglePasswordVisibility = () => {
+    const togglePasswordVisibility = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+        e.preventDefault();
         setShowPassword(!showPassword);
         setInputType(showPassword ? 'text' : 'password');
     };
@@ -34,7 +35,6 @@ const Login = () => {
                 });
                 const data = await response.json();
                 if (data.isLogged) {
-                    alert("Login successful");
                     router.push('/');
                 } else {
                     alert("Login failed");
@@ -55,8 +55,7 @@ const Login = () => {
                     <label htmlFor="password" className={Style.label}>Password:</label>
                     <div className={Style.fromPassword}>
                         <input className={Style.inputP} type={inputType} id="password" name="password" value={password} onChange={handlePasswordChange} />
-                        <button className={Style.eye} onClick={togglePasswordVisibility}>{showPassword ? <Image src="/login/eye.svg" alt="eye" width={22} height={22} />
-                            : <Image src="/login/eyeOff.svg" alt="eye" width={22} height={22} />}</button>
+                        <button className={Style.eye} onClick={togglePasswordVisibility}>{showPassword ? <Image src="/login/eye.svg" alt="eye" width={22} height={22} /> : <Image src="/login/eyeOff.svg" alt="eye" width={22} height={22} />}</button>
                     </div>
                 </form><br />
                 <div className={Style.container1}>

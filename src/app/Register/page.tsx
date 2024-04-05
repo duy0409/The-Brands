@@ -3,6 +3,7 @@ import React, { useState, ChangeEvent } from 'react';
 import Style from "../css/Login.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import axios from 'axios';
 
 const Register = () => {
     const [showPassword1, setShowPassword1] = useState(true);
@@ -47,10 +48,25 @@ const Register = () => {
             setError('Invalid email address');
         }
         else if (password1 !== password2) {
+
             setError('Passwords do not match');
         } else {
             setError('success');
+            (async () => {
+                try {
+                    const response = await axios.post('/api/register', {
+                        email: email,
+                        password: password1
+                    });
+                    const data = await response.data;
+                    console.log(data);
+                    alert("Sign Up Success")
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            })();
         }
+
     };
 
     return (

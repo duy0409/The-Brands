@@ -1,14 +1,18 @@
 [
-    {
-        "email": "Nguyentanchieu2002@gmail.com",
-        "password": "123456"
-    },
-    {
-        "email": "huynhtrungtin2002@gmail.com",
-        "password": "123456"
-    },
-    {
-        "email": "phamnhatduy2002@gmail.com",
-        "password": "123456"
-    }
+  {
+    "email": "Nguyentanchieu2002@gmail.com",
+    "password": "123456"
+  },
+  {
+    "email": "huynhtrungtin2002@gmail.com",
+    "password": "123456"
+  },
+  {
+    "email": "phamnhatduy2002@gmail.com",
+    "password": "123456"
+  },
+  {
+    "email": "tanchieu1234@gmail.com",
+    "password": "123456"
+  }
 ]
