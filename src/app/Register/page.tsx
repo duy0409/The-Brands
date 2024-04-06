@@ -60,7 +60,10 @@ const Register = () => {
                     });
                     const data = await response.data;
                     console.log(data);
-                    alert("Sign Up Success")
+                    if (data.isLogged == false) {
+                        alert("Sign Up Success")
+                    }
+
                 } catch (error) {
                     console.error('Error:', error);
                 }

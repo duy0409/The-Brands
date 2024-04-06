@@ -59,7 +59,7 @@ const Login = () => {
                     </div>
                 </form><br />
                 <div className={Style.container1}>
-                    <Link href="#" className={Style.fgPassword}>Forgot Password?</Link>
+                    <Link href="/ForgotPassword" className={Style.fgPassword}>Forgot Password?</Link>
                 </div>
                 <br />
                 <div>
