@@ -5,7 +5,7 @@
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 800px) {
     .containerBur {
         display: block;
         border-bottom: 2px solid #303436;

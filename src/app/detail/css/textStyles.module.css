@@ -132,19 +132,20 @@
 
 .items:hover {
     border-color: #bfc1c5;
+}
 
+.ee {
+    background: #181a1b;
 }
 
 .bannerImg {
     overflow: hidden;
     height: 100%;
-
 }
 
 .imageItems {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
-
 }
 
 .items:hover .imageItems {

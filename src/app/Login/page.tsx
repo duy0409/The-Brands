@@ -68,7 +68,7 @@ const Login = () => {
                 </div>
                 <br /><div className={Style.linkHere}>
                     <a >Don’t have an account?</a>
-                    <Link href='/Register' id={Style.here}> Sign up here</Link>
+                    <Link href='/Register' id={Style.here} style={{ textDecoration: 'none' }}>ㅤSign up here</Link>
                 </div>
             </div>
         </div>

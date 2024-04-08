@@ -6,7 +6,7 @@
     display: block;
     justify-content: center;
     align-items: center;
-    background-color: #181A1B;
+    background-image: url('/background/Body.svg');
     position: absolute;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -203,6 +203,11 @@
         margin-left: 0%;
         margin-right: 0%;
         overflow: hidden;
+    }
+
+    .bodyContainer {
+
+        background-image: url('/background/m.svg');
     }
 
     .explain {

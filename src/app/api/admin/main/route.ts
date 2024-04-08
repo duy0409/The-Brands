@@ -10,6 +10,7 @@ const addDataToJson = async (data: any) => {
         if (existingUser) {
             throw new Error('ID already exists');
         }
+
         jsonData.push(data);
         await fs.promises.writeFile(filePath, JSON.stringify(jsonData, null, 2));
     } catch (error) {
@@ -27,8 +28,9 @@ export async function POST(req: Request) {
         const main = pageMain.find((main: any) => main.id === id && main.name === name && main.description === description && main.thumbnail);
 
         if (main) {
-            return Response.json({ isLogged: true, message: "Email was registered" });
-        } else {
+            return Response.json({ isLogged: true, message: "ID was registered" });
+        }
+        else {
             await addDataToJson({ id, name, description, thumbnail });
             return Response.json({ isLogged: false });
         }

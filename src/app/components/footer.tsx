@@ -10,7 +10,7 @@ const Footer = () => {
         <div className={footerStyles.footer}>
             <div className={footerStyles.group1}>
                 <div className={footerStyles.group_child1}>
-                    <div id={footerStyles.logo1}><Image src="/FashionNews/logo.svg" width={182} height={38} alt="Logo" /><br />
+                    <div id={footerStyles.logo1}><Link className={footerStyles.linkText} href="/admin/Main"><Image src="/FashionNews/logo.svg" width={182} height={38} alt="Logo" /></Link><br />
                         Trang thông tin đăng tải hỗ trợ cho các thương hiệu thời trang tại Việt Nam. Mọi thông tin yêu cầu hỗ trợ xin liên hệ về cho bộ phận hỗ trợ nguyentanchieu2002@gmail.com.
                     </div><br />
                     <div className={footerStyles.lableText}>
@@ -28,6 +28,7 @@ const Footer = () => {
                         <p style={{ color: '#C0BAB2', fontWeight: 'bold' }}>Liên hệ và hỗ trợ thông qua</p>
                         <div className={footerStyles.infoText} ><a style={{ fontWeight: 'bold' }}>Điện thoại: </a> <a>0846708753</a></div><br />
                         <div className={footerStyles.infoText} ><a style={{ fontWeight: 'bold' }}>Email: </a> <a>nguyentanchieu2002@gmail.com</a></div>
+
                     </div>
                     <div className={footerStyles.group_child2}>
                         <p id={footerStyles.text1}>Theo dõi tại<br /></p>

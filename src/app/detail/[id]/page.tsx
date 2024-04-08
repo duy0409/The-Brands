@@ -49,11 +49,12 @@ const page = ({ params }: { params: { id: string } }) => {
                             <div className={textStyles.ContainerItem}>
                                 {item.listdetail.map(item1 => (
                                     <div key={item1.id} className={textStyles.items}>
-                                        <Link href={`item/${item1.id}`}>
-                                            <div className={textStyles.bannerImg}>
-                                                <Image className={textStyles.imageItems} src={item1.thumbnail} alt="title" width={300} height={450} />
-                                            </div><br /><br />{item1.text}<br />________
-                                        </Link>
+                                        <div className={textStyles.ee}>
+                                            <Link href={`item/${item1.id}`}>
+                                                <div className={textStyles.bannerImg}>
+                                                    <Image className={textStyles.imageItems} src={item1.thumbnail} alt="title" width={300} height={450} />
+                                                </div><br /><br /><div className={textStyles.t}>{item1.text}</div><br />________
+                                            </Link></div>
                                     </div>
                                 )
                                 )}

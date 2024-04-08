@@ -1,6 +1,7 @@
 .containerPage2 {
     overflow-x: hidden;
     overflow-y: hidden;
+    background-image: url('/background/page1.svg');
 }
 
 .bodyContent {
@@ -9,6 +10,7 @@
     gap: 10%;
     justify-content: center;
 }
+
 
 .slider {
     position: relative;

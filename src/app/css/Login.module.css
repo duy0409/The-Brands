@@ -65,7 +65,10 @@
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    color: #C0BAB2;
+    color: #ffffff;
+    background: rgba(217, 217, 217, 0.10);
+    box-shadow: 38.667px -38.667px 38.667px 0px rgba(165, 165, 165, 0.10) inset, -38.667px 38.667px 38.667px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(3px);
 }
 
 #title {
@@ -84,7 +87,7 @@
 .bodyContent {
     display: flex;
     flex-direction: column;
-
+    font-weight: 500;
     justify-content: left;
     width: 90%;
     margin-left: auto;
@@ -96,7 +99,7 @@
     margin-right: 0;
     width: 100%;
     height: 25px;
-    background-color: #35393B;
+    background-color: transparent;
     border: none;
     color: #C0BAB2;
     outline: none;
@@ -109,7 +112,7 @@
     margin-right: 0;
     width: 100%;
     height: 25px;
-    background-color: #35393B;
+    background-color: transparent;
     border: none;
     outline: none;
 }
