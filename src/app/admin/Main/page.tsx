@@ -4,7 +4,7 @@ import axios from 'axios';
 import pageM from "../css/main.module.css";
 import Link from 'next/link';
 
-const mainPage: React.FC = () => {
+const mainPage = () => {
 
     const [id, setId] = useState('');
     const [name, setName] = useState('');
