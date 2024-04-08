@@ -3,12 +3,14 @@ import Image from "next/image";
 import headerStyles from "../css/ButtonMobile.module.css";
 import Like from "../components/like";
 import Login from "../components/login";
+import Search from "../components/SearchBar"
 
 const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [vietnameseBrandsOpen, setVietnameseBrandsOpen] = useState(false);
     const [usUkBrandsOpen, setUsUkBrandsOpen] = useState(false);
     const [koreanBrandsOpen, setKoreanBrandsOpen] = useState(false);
+    const [searchBar, setSearchBar] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -24,6 +26,9 @@ const BurgerMenu = () => {
 
     const toggleKoreanBrands = () => {
         setKoreanBrandsOpen(!koreanBrandsOpen);
+    };
+    const toggleSearchBar = () => {
+        setSearchBar(!searchBar);
     };
 
     return (
@@ -79,9 +84,14 @@ const BurgerMenu = () => {
                                 <a href="/detail/1" className={headerStyles.dropdownItem1}>ADLV</a>
                             </div>
                         </div>
-                    </li>
+                    </li><br />
+                    <div className={headerStyles.searchBar}>
+                        <div className={headerStyles.search}>
+                            <Search />
+                        </div></div>
                 </ul>
             )}
+
         </div>
     );
 };

@@ -5,6 +5,8 @@ import { useParams } from 'next/navigation';
 import style from '../../css/search.module.css'
 import Header from "@/app/components/header";
 import Footer from "../../components/footer";
+import HMobie from "../../components/ButtonMenu";
+import FMobile from "../../components/footerMobile";
 import productsData from '../../../app/detail/item/config/itemsPage2.json';
 
 const SearchResultsPage: React.FC = () => {
@@ -28,7 +30,7 @@ const SearchResultsPage: React.FC = () => {
     return (
         <div>
             <div>
-                <Header />
+                <Header /><HMobie />
                 <Image
                     src="/FashionNews/bar.svg"
                     alt="bar"
@@ -43,20 +45,20 @@ const SearchResultsPage: React.FC = () => {
             <div className={style.gallerycontainer}>
                 {searchResults.map((product: any) => (
                     <div className={style.galleryitem} key={product.id}>
-                        <div className={style.contentSearch}>{product.title}
+                        <div className={style.contentSearch}><div className={style.text}>{product.title}</div><br /><br />
                             <a target="_blank" href={product.link1}><Image id={style.imageS} src={product.image2} alt="title" width={350} height={350} /></a>
                         </div>
-                        <div className={style.contentSearch}>{product.title1}
+                        <div className={style.contentSearch}><div className={style.text}>{product.title1}</div><br /><br />
                             <a target="_blank" href={product.link2}> <Image id={style.imageS} src={product.image3} alt="title" width={350} height={350} /></a>
                         </div>
-                        <div className={style.contentSearch}>{product.title2}
+                        <div className={style.contentSearch}><div className={style.text}>{product.title2}</div><br /><br />
                             <a target="_blank" href={product.link2}><Image id={style.imageS} src={product.image4} alt="title" width={350} height={350} /></a>
-                        </div>
+                        </div><br />
                     </div>
                 ))}
 
             </div>
-            <Footer />
+            <FMobile /><Footer />
         </div>
 
     );

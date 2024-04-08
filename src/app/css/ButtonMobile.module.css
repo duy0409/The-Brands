@@ -1,6 +1,7 @@
 .containerBur {
     display: none;
-
+    transition: height 0.5s ease;
+    overflow: hidden;
 
 }
 
@@ -17,6 +18,7 @@
     display: grid;
     grid-template-columns: auto auto;
     margin-bottom: -15px;
+
 
     @media only screen and (max-width: 800px) {
         .burgerIcon {
@@ -114,9 +116,9 @@
     width: auto;
     padding: 0;
     margin: 0;
-    margin-right: 18px;
+
     z-index: 998;
-    background-color: #181a1b;
+    background-color: #303436;
     text-align: right;
     margin-bottom: 0;
 
@@ -145,6 +147,7 @@
     color: #8f816a;
     text-decoration: none;
     transition: background-color 1s ease;
+    margin-right: 10px;
 
 }
 
@@ -159,13 +162,21 @@
     text-decoration: none;
     transition: background-color 1s ease;
     border-bottom: none;
-}
-
-.dropdown:hover {
-    display: block;
+    margin-right: 10px;
 }
 
 #textMenu {
     font-size: 15px;
     font-weight: 800;
+    margin-right: 18px;
+}
+
+.searchBar {
+    text-align: right;
+
+    background-color: #303436;
+}
+
+.search {
+    margin-right: 18px;
 }
