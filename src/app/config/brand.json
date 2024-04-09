@@ -118,5 +118,17 @@
     "name": "YAME",
     "description": "yaMe",
     "thumbnail": "/brandLogo/yaMe.png"
+  },
+  {
+    "id": "21",
+    "name": "Nike",
+    "description": "Nike new ",
+    "thumbnail": "/brandLogo/nike.webp"
+  },
+  {
+    "id": "22",
+    "name": "Evisu",
+    "description": "Evisu brands",
+    "thumbnail": "/brandLogo/EVISU_Logo.jpg"
   }
 ]

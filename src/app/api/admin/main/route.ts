@@ -18,6 +18,22 @@ const addDataToJson = async (data: any) => {
         throw new Error('Error writing to JSON file');
     }
 };
+const updateDataInJson = async (data: any) => {
+    try {
+        const existingData = await fs.promises.readFile(filePath, 'utf-8');
+        const jsonData = JSON.parse(existingData);
+        const existingUserIndex = jsonData.findIndex((main: any) => main.id === data.id);
+        if (existingUserIndex !== -1) {
+            jsonData[existingUserIndex] = data;
+            await fs.promises.writeFile(filePath, JSON.stringify(jsonData, null, 2));
+        } else {
+            throw new Error('User not found');
+        }
+    } catch (error) {
+        console.error(error);
+        throw new Error('Error updating JSON file');
+    }
+};
 
 export async function POST(req: Request) {
     try {
@@ -28,7 +44,8 @@ export async function POST(req: Request) {
         const main = pageMain.find((main: any) => main.id === id && main.name === name && main.description === description && main.thumbnail);
 
         if (main) {
-            return Response.json({ isLogged: true, message: "ID was registered" });
+            await updateDataInJson({ id, name, description, thumbnail });
+            return Response.json({ isLogged: true });
         }
         else {
             await addDataToJson({ id, name, description, thumbnail });
