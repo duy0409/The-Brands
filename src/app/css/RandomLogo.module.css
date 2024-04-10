@@ -19,6 +19,14 @@
     padding-bottom: 30px;
 }
 
+#item {
+    transition: transform 0.3s ease-in-out;
+}
+
+#item:hover {
+    transform: scale(1.05);
+}
+
 @media only screen and (max-width: 800px) {
     .container {
         display: none;

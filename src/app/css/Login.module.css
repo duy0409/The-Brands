@@ -29,7 +29,6 @@
 
 }
 
-
 /* From Login */
 .loginPage {
     background-image: url('/login/login.svg');
@@ -40,6 +39,7 @@
     display: block;
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 .RegisterPage {
@@ -63,6 +63,8 @@
     width: 30%;
     height: auto;
     padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     color: #ffffff;
@@ -115,16 +117,23 @@
     background-color: transparent;
     border: none;
     outline: none;
-}
-
-.fromPassword {
-    display: flex;
-    width: 100%;
     border-bottom: #C0BAB2 solid 1px;
 }
 
+.fromPassword {
+    position: relative;
+    display: inline-block;
+
+}
+
 .eye {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
     border: none;
+    cursor: pointer;
     background-color: transparent;
 }
 

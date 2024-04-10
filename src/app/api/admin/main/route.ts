@@ -10,7 +10,6 @@ const addDataToJson = async (data: any) => {
         if (existingUser) {
             throw new Error('ID already exists');
         }
-
         jsonData.push(data);
         await fs.promises.writeFile(filePath, JSON.stringify(jsonData, null, 2));
     } catch (error) {
@@ -41,7 +40,7 @@ export async function POST(req: Request) {
 
         const existingData = await fs.promises.readFile(filePath, 'utf-8');
         const pageMain = JSON.parse(existingData);
-        const main = pageMain.find((main: any) => main.id === id && main.name === name && main.description === description && main.thumbnail);
+        const main = pageMain.find((main: any) => main.id === id && main.name === name && main.description === description && main.thumbnail === thumbnail);
 
         if (main) {
             await updateDataInJson({ id, name, description, thumbnail });

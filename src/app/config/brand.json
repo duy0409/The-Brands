@@ -118,5 +118,11 @@
     "name": "YAME",
     "description": "yaMe",
     "thumbnail": "/brandLogo/yaMe.png"
+  },
+  {
+    "id": "21",
+    "name": "nike",
+    "description": "nike brands",
+    "thumbnail": "/brandLogo/nike.webp"
   }
 ]

@@ -25,9 +25,11 @@ const MainPage = () => {
             return response.data.exists;
         } catch (error) {
             console.error('Error checking ID existence:', error);
+
             return false;
         }
     };
+
     const handleSubmit = async () => {
         try {
             if (!id) {
