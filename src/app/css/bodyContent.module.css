@@ -206,7 +206,8 @@
     }
 
     .bodyContainer {
-
+        width: 100%;
+        height: auto;
         background-image: url('/background/m.svg');
     }
 
