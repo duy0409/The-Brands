@@ -35,9 +35,7 @@
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .loginPage {
@@ -81,6 +79,9 @@
     background: rgba(217, 217, 217, 0.10);
     box-shadow: 38.667px -38.667px 38.667px 0px rgba(165, 165, 165, 0.10) inset, -38.667px 38.667px 38.667px 0px rgba(255, 255, 255, 0.10) inset;
     backdrop-filter: blur(3px);
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 }
 
 #title {
@@ -198,140 +199,6 @@
 #here {
     font-weight: bold;
     color: aliceblue;
-}
-
-@media only screen and (min-width: 1370) {
-    .container {
-        background-color: #35393B;
-        width: 50%;
-        height: auto;
-        padding: 40px;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-        color: #ffffff;
-        background: rgba(217, 217, 217, 0.10);
-        box-shadow: 38.667px -38.667px 38.667px 0px rgba(165, 165, 165, 0.10) inset, -38.667px 38.667px 38.667px 0px rgba(255, 255, 255, 0.10) inset;
-        backdrop-filter: blur(3px);
-    }
-
-    #title {
-
-        text-align: center;
-        font-family: "Poppins", sans-serif;
-        font-size: 34px;
-        font-weight: bold;
-    }
-
-    .label {
-        text-align: left;
-        color: #C0BAB2;
-    }
-
-    .bodyContent {
-        display: flex;
-        flex-direction: column;
-        font-weight: 700;
-        justify-content: left;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .inputE {
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        height: 30px;
-        background-color: transparent;
-        border: none;
-        color: #C0BAB2;
-        outline: none;
-        border-bottom: #C0BAB2 solid 1px;
-    }
-
-    .inputP {
-        color: #C0BAB2;
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        height: 30px;
-        background-color: transparent;
-        border: none;
-        outline: none;
-        border-bottom: #C0BAB2 solid 1px;
-    }
-
-    .fromPassword {
-        position: relative;
-        display: inline-block;
-
-    }
-
-    .eye {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background: none;
-        border: none;
-        cursor: pointer;
-        background-color: transparent;
-    }
-
-    .fgPassword {
-        text-decoration: none;
-        color: #C0BAB2;
-    }
-
-    .fgPassword:hover {
-        color: aliceblue;
-
-    }
-
-    .btnSignIn {
-        background-color: #181a1b;
-        color: #C0BAB2;
-        font-size: 26px;
-        font-weight: bold;
-        border: none;
-        width: 60%;
-        height: 60px;
-    }
-
-    .btnSignUp {
-        background-color: #181a1b;
-        color: #C0BAB2;
-        font-size: 26px;
-        font-weight: bold;
-        border: none;
-        width: 60%;
-        height: 60px;
-    }
-
-    .btnSignIn:hover {
-        color: aliceblue;
-        filter: brightness(150%);
-    }
-
-    .btnSignUp:hover {
-        color: aliceblue;
-        filter: brightness(150%);
-    }
-
-    .linkHere {
-        display: flex;
-        color: #C0BAB2;
-        font-size: 20px;
-        justify-content: center;
-
-    }
-
-    #here {
-        font-weight: 800;
-        color: aliceblue;
-    }
 }
 
 @media only screen and (max-width: 480px) {
