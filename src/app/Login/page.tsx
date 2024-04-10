@@ -58,7 +58,7 @@ const Login = () => {
                             <input className={Style.inputP} type={inputType} id="password" name="password" value={password} onChange={handlePasswordChange} />
                             <button className={Style.eye} onClick={togglePasswordVisibility}>{showPassword ? <Image src="/login/eye.svg" alt="eye" width={22} height={22} /> : <Image src="/login/eyeOff.svg" alt="eye" width={22} height={22} />}</button>
                         </div>
-                    </form><br />
+                    </form><br /><br /><br />
                     <div className={Style.container1}>
                         <Link href="/ForgotPassword" className={Style.fgPassword}>Forgot Password?</Link>
                     </div>
