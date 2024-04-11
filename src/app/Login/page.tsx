@@ -49,7 +49,7 @@ const Login = () => {
             <div className={Style.containerPageLogin}>
                 <Link href="/"><Image className={Style.image} src="/FashionNews/logo.svg" alt="logo" width={190} height={40} /></Link>
                 <div className={Style.container}>
-                    <a id={Style.title}>Login</a><br /><br /><br /><br />
+                    <a id={Style.title}>Login</a><br /><br /><br />
                     <form className={Style.bodyContent}>
                         <label htmlFor="email" className={Style.label}>Email:</label>
                         <input className={Style.inputE} id="email" name="email" value={email} onChange={handleEmailChange} /><br />
@@ -58,19 +58,21 @@ const Login = () => {
                             <input className={Style.inputP} type={inputType} id="password" name="password" value={password} onChange={handlePasswordChange} />
                             <button className={Style.eye} onClick={togglePasswordVisibility}>{showPassword ? <Image src="/login/eye.svg" alt="eye" width={22} height={22} /> : <Image src="/login/eyeOff.svg" alt="eye" width={22} height={22} />}</button>
                         </div>
-                    </form><br /><br /><br />
-                    <div className={Style.container1}>
-                        <Link href="/ForgotPassword" className={Style.fgPassword}>Forgot Password?</Link>
-                    </div>
-                    <br />
-                    <div>
-                        <button className={Style.btnSignIn} type="submit" onClick={handleSignIn}>Sign in</button>
+                    </form><br /><br />
+                    <form className={Style.bodyContent1}>
+                        <div className={Style.container1}>
+                            <Link href="/ForgotPassword" className={Style.fgPassword}>Forgot Password?</Link>
+                        </div>
+                        <br />
+                        <div>
+                            <button className={Style.btnSignIn} type="submit" onClick={handleSignIn}>Sign in</button>
 
-                    </div>
-                    <br /><div className={Style.linkHere}>
-                        <a >Don’t have an account?</a>
-                        <Link href='/Register' id={Style.here} style={{ textDecoration: 'none' }}>ㅤSign up here</Link>
-                    </div>
+                        </div>
+                        <br /><div className={Style.linkHere}>
+                            <a >Don’t have an account?</a>
+                            <Link href='/Register' id={Style.here} style={{ textDecoration: 'none' }}>ㅤSign up here</Link>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

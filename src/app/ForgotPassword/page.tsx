@@ -74,7 +74,6 @@ const Register = () => {
 
     return (
         <div className={Style.RegisterPage}>
-
             <Link href="/"><Image className={Style.image} src="/FashionNews/logo.svg" alt="logo" width={190} height={40} /></Link>
             <div className={Style.container}>
                 <img src='/icon/lock.svg' className={Style.lock}></img><br />
@@ -91,19 +90,17 @@ const Register = () => {
                     <div className={Style.fromPassword}>
                         <input className={Style.inputP} type={inputType2} id="confirmPassword" name="confirmPassword" onChange={handlePasswordChange2} />
                         <button className={Style.eye} onClick={togglePasswordVisibility2}>{showPassword2 ? <Image src="/login/eye.svg" alt="eye" width={22} height={22} /> : <Image src="/login/eyeOff.svg" alt="eye" width={22} height={22} />}</button></div>
+                    {error && <div className={Style.error}>{error}</div>}<br />
+                    <div>
+                        <button className={Style.btnSignUp} onClick={handleSignUp}>Reset Password</button><br />
+                    </div>
+                    <br />
+                    <div className={Style.linkHere}>
+                        <img src='/icon/left.png'></img>
+                        <a href='/Login' className={Style.back}> Back to login </a>
+                    </div>
                 </form>
-                {error && <div className={Style.error}>{error}</div>}<br /><br />
-                <div>
-                    <button className={Style.btnSignUp} onClick={handleSignUp}>Reset Password</button><br />
-                </div>
-                <br />
-                <div className={Style.linkHere}>
-                    <img src='/icon/left.png'></img>
-                    <a href='/Login' className={Style.back}> Back to login </a>
-
-                </div>
             </div>
-
         </div>
     );
 };
