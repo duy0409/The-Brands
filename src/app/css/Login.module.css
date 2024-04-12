@@ -31,16 +31,12 @@
 
 /* From Login */
 
-.loginPage {
+.loginBackGroundImage {
     background-image: url('/login/login.svg');
     background-size: cover;
     background-position: center;
     width: 100vw;
     height: 100vh;
-    display: block;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .RegisterPage {
@@ -51,31 +47,110 @@
     height: 100vh;
     display: block;
     text-align: center;
-
+}
+.ForgotPageBackground{
+    background-image: url('/login/register.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    text-align: center;
 }
 
-.image {
-    margin-top: 26px;
-    margin-bottom: 20px;
+.logoLogin {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px
 }
-
+.logoSignup{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px
+}
+.logoForgot{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px
+}
+.logoLogin a {
+    display: block;
+}
+.logoSignup a{
+    display: block;
+}
+.logoForgot a{
+    display: block;
+}
 .container {
-    background-color: #35393B;
-    width: 35%;
-    height: 70vh;
+    max-width: 1140px;
+    margin: 0px auto;
+    height: 100%;
+}
+.bodyContent{
+    max-width: 1140px;
+    margin: 0px auto;
+    height: 100%;  
+}
+.containerForgot{
+    max-width: 1140px;
+    margin: 0px auto;
+    height: 100%; 
+}
+.LoginPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.SignupPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.Forgotpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     padding: 20px;
+    background-color: #35393B;
     color: #ffffff;
-    margin: auto;
     background: rgba(217, 217, 217, 0.10);
     box-shadow: 38.667px -38.667px 38.667px 0px rgba(165, 165, 165, 0.10) inset, -38.667px 38.667px 38.667px 0px rgba(255, 255, 255, 0.10) inset;
     backdrop-filter: blur(3px);
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
 }
-
+.form_wrapper_Signup{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    background-color: #35393B;
+    color: #ffffff;
+    background: rgba(217, 217, 217, 0.10);
+    box-shadow: 38.667px -38.667px 38.667px 0px rgba(165, 165, 165, 0.10) inset, -38.667px 38.667px 38.667px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(3px);
+}
+.form_wrapperForgot{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+    background-color: #35393B;
+    color: #ffffff;
+    background: rgba(217, 217, 217, 0.10);
+    box-shadow: 38.667px -38.667px 38.667px 0px rgba(165, 165, 165, 0.10) inset, -38.667px 38.667px 38.667px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(3px);
+}
 #title {
-
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
@@ -88,11 +163,25 @@
 }
 
 .bodyContent {
-
     display: flex;
     flex-direction: column;
     font-weight: 500;
-    justify-content: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bodyContentSignup{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bodyContentForgot{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -100,11 +189,10 @@
 
 .bodyContent1 {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
+    width: 100%;
+    padding: 15px 0px;
 }
 
 .inputE {
@@ -166,8 +254,7 @@
     font-size: 26px;
     font-weight: bold;
     border: none;
-    width: 50%;
-    height: 50px;
+    padding: 10px 20px;
 }
 
 .btnSignUp {
@@ -176,8 +263,15 @@
     font-size: 26px;
     font-weight: bold;
     border: none;
-    width: 50%;
-    height: 50px;
+    padding: 10px 20px;
+}
+.btnForgot{
+    background-color: #181a1b;
+    color: #C0BAB2;
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
 }
 
 .btnSignIn:hover {
@@ -186,6 +280,10 @@
 }
 
 .btnSignUp:hover {
+    color: aliceblue;
+    filter: brightness(150%);
+}
+.btnForgot:hover{
     color: aliceblue;
     filter: brightness(150%);
 }
